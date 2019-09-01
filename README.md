@@ -1,3 +1,3 @@
-# go-books
+# go books
 
 read go books
