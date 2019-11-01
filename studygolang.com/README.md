@@ -2,6 +2,9 @@
 
 [go-admin](https://studygolang.com/topics/10272?fr=sidebar)
 
+[article](https://studygolang.com/articles/24366#reply0)
+[goroseGin](https://github.com/gohouse/goroseGin)
+
 [linux-vmstat](https://mp.weixin.qq.com/s?__biz=MzAxODI5ODMwOA==&mid=2666540459&idx=1&sn=301fc43baaea80e1512b4972d45677b2&chksm=80dce900b7ab60163db2f04e96a9f56ee1ab19e4c56c0d9189c89b9544c4e7eea7cef4bdac8c&mpshare=1&scene=24&srcid=12025d0oeYIj4j82AoeuCK0b#rd)
 
 [调用链监控](https://mp.weixin.qq.com/s?__biz=MzAxODI5ODMwOA==&mid=2666544406&idx=1&sn=0ed638af8b0feaae05bf753771ce8968&chksm=80dcf9bdb7ab70ab45d3d7a6f83923b189412a0b54c5357106bcc520ee90dfbdccc680fe50f1&scene=0&xtrack=1#rd)
