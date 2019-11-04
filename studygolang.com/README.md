@@ -1,6 +1,7 @@
 # studygolang.com articles
 
 [go-admin](https://studygolang.com/topics/10272?fr=sidebar)
+[go-primary](https://www.jianshu.com/u/d74dcc7a6e0d)
 
 [article](https://studygolang.com/articles/24386#reply0)
 [article](https://studygolang.com/articles/24387#reply0)
@@ -13,3 +14,5 @@
 [单点登录](https://mp.weixin.qq.com/s?__biz=MzI1OTQwOTg2Mg==&mid=2247488800&idx=3&sn=210dc042c446a9cd50ed23eac919acfb&chksm=ea780789dd0f8e9fed2b9855f774e37ce92110b394b2b8e9112d81837ff05669f3150c1563a5&scene=0&xtrack=1#rd)
 
 [HTTP长连接](https://mp.weixin.qq.com/s?__biz=MzAxMzc4Mzk1Mw==&mid=2649840924&idx=1&sn=6b6441bbd3496eb821a99de2da7c5c8f&chksm=8398bbe2b4ef32f416880c33d21e24f18517c3b254e4406d4d81d21d9678da538661d3599e90&scene=0&xtrack=1#rd)
+
+[gochat](https://github.com/LockGit/gochat)
