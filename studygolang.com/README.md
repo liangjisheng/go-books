@@ -1,8 +1,10 @@
 # studygolang.com articles
 
-[go-primary-16](https://www.jianshu.com/u/d74dcc7a6e0d)
+[go-primary-22](https://www.jianshu.com/u/d74dcc7a6e0d)
 [article](https://studygolang.com/articles/24386#reply0)
 [article](https://studygolang.com/articles/24387#reply0)
+
+go for range
 
 [article](https://studygolang.com/articles/24366#reply0)
 [goroseGin](https://github.com/gohouse/goroseGin)
