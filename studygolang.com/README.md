@@ -1,8 +1,6 @@
 # studygolang.com articles
 
-[go-primary-22](https://www.jianshu.com/u/d74dcc7a6e0d)
-[article](https://studygolang.com/articles/24386#reply0)
-[article](https://studygolang.com/articles/24387#reply0)
+[go-redis](https://www.jianshu.com/p/7a134a740192)
 
 go for range
 
