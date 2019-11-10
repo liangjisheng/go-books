@@ -1,11 +1,6 @@
 # studygolang.com articles
 
-[go-redis](https://www.jianshu.com/p/7a134a740192)
-
-go for range
-
 [db](http://c.biancheng.net/view/2574.html)
-
 [article](https://studygolang.com/articles/24366#reply0)
 [goroseGin](https://github.com/gohouse/goroseGin)
 
