@@ -1,6 +1,6 @@
 # studygolang.com articles
 
-[db](http://c.biancheng.net/view/2574.html)
+[db](http://c.biancheng.net/view/2590.html)
 [article](https://studygolang.com/articles/24366#reply0)
 [goroseGin](https://github.com/gohouse/goroseGin)
 
