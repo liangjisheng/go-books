@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>golang用户管理示例</title>
+    <style>
+        html,body {
+            margin: 0;
+            padding: 0;
+        }
+        #user-box {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        table {
+            text-align: center;
+            border: 1px solid #000;
+        }
+
+        th {
+            width: 150px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 6px 12px;
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.42857143;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+
+        .btn-success {
+            color: #fff;
+            background-color: #5cb85c;
+            border-color: #4cae4c;
+        }
+
+        .btn-primary {
+            color: #fff;
+            background-color: #337ab7;
+            border-color: #2e6da4;
+        }
+
+        .btn-danger {
+            color: #fff;
+            background-color: #d9534f;
+            border-color: #d43f3a;
+        }
+
+        .btn-default {
+            color: #333;
+            background-color: #fff;
+            border-color: #ccc;
+        }
+
+        .btn-sm {
+            padding: 5px 10px;
+            font-size: 12px;
+            line-height: 1.5;
+            border-radius: 3px;
+        }
+
+        dialog {
+            min-width: 300px;
+            border: 5px solid #a4aa9d;
+            border-radius: 1rem;
+            z-index: 11;
+        }
+        dialog input{
+            width: 100%;
+            height: 1.5rem;
+            border-radius: 4px;
+        }
+        #cover{
+            width: 100%;
+            height: 100%;
+            background-color: dimgray;
+            display: none;
+            z-index: 10;
+            position: absolute;
+            top:0;
+            opacity:0.3;
+        }
+    </style>
+</head>
+<body>
+<center><h1>欢迎来到golang入门用户管理api服务系统</h1></center>
+<hr>
+<div id="user-box">
+    <p>
+        <button onclick="UserAdd()" class="btn btn-primary btn-sm">新增</button>
+    </p>
+    <table>
+        <tr>
+            <th>uid</th>
+            <th>用户名</th>
+            <th>年龄</th>
+            <th>操作</th>
+        </tr>
+    </table>
+</div>
+<div id="cover"></div>
+<div id="modal">
+    <!-- 模态框 -->
+    <dialog>
+        <p>操作</p>
+        <hr>
+        <input type="hidden" id="uid">
+        <p>
+            用户名: <br>
+            <input type="text" id="username">
+        </p>
+
+        <p>
+            年&nbsp;&nbsp;龄: <br>
+            <input type="text" id="age">
+        </p>
+
+        <p style="float: right">
+            <button class="btn btn-default" onclick="dialogHide()">关闭</button>
+            <button class="btn btn-success" onclick="UserSubmit()">提交</button>
+        </p>
+    </dialog>
+</div>
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    var dialog = $("dialog");
+    var uid = $("#uid");
+    var username = $("#username");
+    var age = $("#age");
+
+    // var host = "http://localhost:8080"
+    var host = ""
+
+    // 初始化数据
+    UserList();
+
+    function UserSubmit() {
+        var url = host + "/UserEdit";
+        // 获取form表单信息
+        var uidVal = uid.val();
+        var usernameVal = username.val()
+        var ageVal = age.val()
+
+        if (uidVal == "") {
+            url = "/UserAdd"
+        }
+        if (usernameVal=="" || ageVal=="") {
+            alert("请输入信息")
+            username.focus()
+            return false
+        }
+
+        $.get(url, {
+            uid: uidVal,
+            username: usernameVal,
+            age: ageVal
+        }, function (e) {
+            console.log(e);
+            if (e.code != 200) {
+                alert("失败")
+            }
+            // dialog.hide()
+            window.location.reload()
+        })
+    }
+
+    function UserAdd() {
+        dialogInit()
+        dialogShow()
+    }
+
+    function UserEdit(uidParam, usernameParam, ageParam) {
+        dialogInit()
+        dialogShow()
+        uid.val(uidParam)
+        username.val(usernameParam)
+        age.val(ageParam)
+    }
+
+    function UserDelete(uidParam) {
+        if (confirm("确定删除???") == false) {
+            return false
+        }
+        var url = host + "/UserDelete"
+        $.get(url, {uid: uidParam}, function (e) {
+            if (e.code != 200) {
+                alert("删除失败")
+            }
+            // dialog.hide()
+            window.location.reload()
+        })
+    }
+
+    function dialogInit() {
+        uid.val("")
+        username.val("")
+        age.val("")
+    }
+    
+    function dialogShow() {
+        $("#cover").show()
+        dialog.show()
+    }
+
+    function dialogHide() {
+        $("#cover").hide()
+        dialog.hide()
+    }
+
+    function UserList() {
+        var url = host + "/UserList"
+        $.get(url, {}, function (e) {
+            if (e.code == 200) {
+                if (e.data.length > 0) {
+                    for (var i in e.data) {
+                        var data = e.data[i]
+                        $("table").append("<tr>\n" +
+                            "            <td>" + data.uid + "</td>\n" +
+                            "            <td>" + data.username + "</td>\n" +
+                            "            <td>" + data.age + "</td>\n" +
+                            "            <td><a href='javascript:;' class='btn btn-primary btn-sm' onclick='UserEdit(" + data.uid + ",\"" + data.username + "\"," + data.age + ")'>编辑</a> | " +
+                            "<a href='javascript:;' class='btn btn-danger btn-sm' onclick='UserDelete(" + data.uid + ")'>删除</a> </td>" +
+                            "        </tr>")
+                    }
+                }
+            }
+            dialog.hide()
+        })
+    }
+</script>
+</body>
+</html>
