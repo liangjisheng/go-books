@@ -1,17 +1,18 @@
 # studygolang.com articles
 
-[db](http://c.biancheng.net/view/2593.html)
-[article](https://studygolang.com/articles/24366#reply0)
-[goroseGin](https://github.com/gohouse/goroseGin)
+[db](http://c.biancheng.net/view/2605.html)
 
-[调用链监控](https://mp.weixin.qq.com/s?__biz=MzAxODI5ODMwOA==&mid=2666544406&idx=1&sn=0ed638af8b0feaae05bf753771ce8968&chksm=80dcf9bdb7ab70ab45d3d7a6f83923b189412a0b54c5357106bcc520ee90dfbdccc680fe50f1&scene=0&xtrack=1#rd)
+[sso单点登录](https://www.cnblogs.com/lyzg/p/6132801.html)
+[sso单点登录](https://studygolang.com/articles/11793)
+[web会话管理](https://www.cnblogs.com/lyzg/p/6067766.html)
 
-[单点登录](https://mp.weixin.qq.com/s?__biz=MzI1OTQwOTg2Mg==&mid=2247488800&idx=3&sn=210dc042c446a9cd50ed23eac919acfb&chksm=ea780789dd0f8e9fed2b9855f774e37ce92110b394b2b8e9112d81837ff05669f3150c1563a5&scene=0&xtrack=1#rd)
-
-[HTTP长连接](https://mp.weixin.qq.com/s?__biz=MzAxMzc4Mzk1Mw==&mid=2649840924&idx=1&sn=6b6441bbd3496eb821a99de2da7c5c8f&chksm=8398bbe2b4ef32f416880c33d21e24f18517c3b254e4406d4d81d21d9678da538661d3599e90&scene=0&xtrack=1#rd)
+[go-interview-6](https://mp.weixin.qq.com/s?__biz=MzI2MDA1MTcxMg==&mid=500983295&idx=1&sn=37ef907efb6d8a7bd3b82b98d84070ad&chksm=724743904530ca861faec3b3172edf176468f4773e3ef6f08cb94c73e0d8517e6f115387d8d1&mpshare=1&scene=1&srcid=1116ivfN1p34cdqpqgz0Rg4D&sharer_sharetime=1573873721091&sharer_shareid=be082b9b55860bca135c279cbeb97d77&key=b84ee3589849589977259508fbd9c1904b2297a5d2d856ca33c7fe772901660d90cc3f80bcebee5e92b1fafc463d8470d6774600185ed1328c885d65ce17cbe8fa85f92cd5d79870fecf43bd5239fb17&ascene=1&uin=MjYyMTk4OTk4NA%3D%3D&devicetype=Windows+10&version=62070158&lang=zh_CN&pass_ticket=JImzgQmuk0hEOlNuPnmJcDktxWkDr%2FjyAiAUvI5bZdd2UKZdTuUeSfJAXihXzFMm)
 
 [gochat](https://github.com/LockGit/gochat)
 [goSTL](https://studygolang.com/articles/24468#reply0)
+[Ten-Minutes-App](https://github.com/lotteryjs/Ten-Minutes-App)
+[devops](https://studygolang.com/articles/24676#reply0)
+[Go-bjut](https://github.com/YahuiAn/Go-bjut)
 
 ip代理
 
