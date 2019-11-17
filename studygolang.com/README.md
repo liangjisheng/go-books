@@ -1,7 +1,5 @@
 # studygolang.com articles
 
-[db](http://c.biancheng.net/view/2605.html)
-
 [sso单点登录](https://www.cnblogs.com/lyzg/p/6132801.html)
 [sso单点登录](https://studygolang.com/articles/11793)
 [web会话管理](https://www.cnblogs.com/lyzg/p/6067766.html)
