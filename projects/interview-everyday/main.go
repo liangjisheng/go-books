@@ -7,5 +7,8 @@ func main() {
 	// iotatest()
 	// day004()
 	// day005()
-	day006()
+	// day006()
+	// day007()
+	// day008()
+	day009()
 }
