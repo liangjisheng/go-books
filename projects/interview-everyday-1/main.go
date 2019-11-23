@@ -5,5 +5,7 @@ package main
 func main() {
 	// defer1()
 	// interface1()
-	day001()
+	// day001()
+	// day002()
+	day003()
 }
