@@ -7,5 +7,6 @@ func main() {
 	// interface1()
 	// day001()
 	// day002()
-	day003()
+	// day003()
+	day004()
 }
