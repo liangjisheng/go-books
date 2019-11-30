@@ -16,6 +16,7 @@
 [gc-1](https://studygolang.com/articles/21569)
 [gc-2](https://studygolang.com/articles/21570)
 [gc-3](https://studygolang.com/articles/24562)
+[GPM](https://qcrao.com/2019/09/06/dive-into-go-scheduler-source-code/)
 
 [match](https://github.com/viabtc/viabtc_exchange_server)
 [blog](https://keeganlee.me/)
