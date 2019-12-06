@@ -8,5 +8,6 @@ func main() {
 	// day005()
 	// day006()
 	// day007()
-	day008()
+	// day008()
+	day009()
 }
