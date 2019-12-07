@@ -1,7 +1,5 @@
 # studygolang.com articles
 
-go-interview-91
-
 [gochat](https://github.com/LockGit/gochat)
 [Go-bjut](https://github.com/YahuiAn/Go-bjut)
 [devops](https://studygolang.com/articles/24676#reply0)
