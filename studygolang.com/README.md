@@ -1,9 +1,5 @@
 # studygolang.com articles
 
-[分布式事务](https://www.php.cn/mysql-tutorials-413805.htm)
-[分布式事务](https://www.cnblogs.com/savorboard/p/distributed-system-transaction-consistency.html)
-[生产者消费者](https://studygolang.com/articles/25062#reply0)
-[encrypt](https://studygolang.com/articles/25127#reply0)
 [ip限流](https://studygolang.com/articles/25121#reply0)
 [blockAndConsensus](https://github.com/corgi-kx)
 [pprof](https://studygolang.com/articles/25185?fr=sidebar)
@@ -25,4 +21,9 @@
 [channel](https://studygolang.com/articles/25216#reply0)
 [gin](https://studygolang.com/articles/25207#reply0)
 
+[gomod](https://www.cnblogs.com/apocelipes/p/9609895.html)
+[gomod](https://blog.csdn.net/benben_2015/article/details/82227338)
+
 [architecture](https://www.w3cschool.cn/architectroad/)
+[CAP](https://blog.csdn.net/qq_35911184/article/details/103034154)
+[draveness](https://draveness.me/)
