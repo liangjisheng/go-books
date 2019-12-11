@@ -1,6 +1,5 @@
 # studygolang.com articles
 
-[ip限流](https://studygolang.com/articles/25121#reply0)
 [blockAndConsensus](https://github.com/corgi-kx)
 [pprof](https://studygolang.com/articles/25185?fr=sidebar)
 [go-http](https://studygolang.com/articles/24738)
