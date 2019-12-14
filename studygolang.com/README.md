@@ -1,8 +1,8 @@
 # studygolang.com articles
 
-[blockAndConsensus](https://github.com/corgi-kx)
-[pprof](https://studygolang.com/articles/25185?fr=sidebar)
-[go-http](https://studygolang.com/articles/24738)
+[deploy](https://studygolang.com/articles/25217#reply0)
+[channel](https://studygolang.com/articles/25216#reply0)
+[gin](https://studygolang.com/articles/25207#reply0)
 
 [gc-1](https://studygolang.com/articles/21569)
 [gc-2](https://studygolang.com/articles/21570)
@@ -15,14 +15,6 @@
 [match](https://github.com/ezpod/crypto-exchange-engine)
 [match](https://github.com/fmstephe/matching_engine)
 
+message deque
+
 [kratos](https://github.com/bilibili/kratos)
-[deploy](https://studygolang.com/articles/25217#reply0)
-[channel](https://studygolang.com/articles/25216#reply0)
-[gin](https://studygolang.com/articles/25207#reply0)
-
-[gomod](https://www.cnblogs.com/apocelipes/p/9609895.html)
-[gomod](https://blog.csdn.net/benben_2015/article/details/82227338)
-
-[architecture](https://www.w3cschool.cn/architectroad/)
-[CAP](https://blog.csdn.net/qq_35911184/article/details/103034154)
-[draveness](https://draveness.me/)
