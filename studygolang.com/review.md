@@ -13,3 +13,6 @@
 [gc-1](https://juejin.im/post/5d2825bff265da1b6836e8d4)
 [gc-2](https://juejin.im/post/5d300d44f265da1bba593be5)
 [gc-3](https://juejin.im/post/5d4037aff265da03e523102f)
+
+[GC](https://juejin.im/post/5cf0ffa7f265da1ba56b052a)
+[GC](https://juejin.im/post/5d398417f265da1b904c26b6)
