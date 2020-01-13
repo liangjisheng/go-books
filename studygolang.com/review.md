@@ -26,3 +26,6 @@
 
 [ActiveMQ](https://www.cnblogs.com/lzylcf/p/9381446.html)
 [ActiveMQ](https://www.cnblogs.com/cxyyh/p/10700437.html)
+
+[RocketMQ](https://segmentfault.com/a/1190000017841402)
+[RocketMQ](https://www.cnblogs.com/qdhxhz/p/11191399.html)
