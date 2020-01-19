@@ -1,0 +1,4 @@
+2020/01/19 18:44:26.322 [D]  this is a debug,my name is stu01
+2020/01/19 18:44:26.323 [I]  this is a info,my name is stu02
+2020/01/19 18:44:26.323 [D]  this is trace my name is stu03
+2020/01/19 18:44:26.323 [W]  this is a warn my name is stu04
