@@ -10,16 +10,22 @@ var (
 	kafkaSender *KafkaSender
 )
 
+// Message ...
+type Message struct {
+	line  string
+	topic string
+}
+
 // KafkaSender ...
 type KafkaSender struct {
 	client   sarama.SyncProducer
-	lineChan chan string
+	lineChan chan *Message
 }
 
 // NewKafkaSender ...
 func NewKafkaSender(kafkaAddr string) (kafka *KafkaSender, err error) {
 	kafka = &KafkaSender{
-		lineChan: make(chan string, 100000),
+		lineChan: make(chan *Message, 100000),
 	}
 	config := sarama.NewConfig()
 	config.Producer.RequiredAcks = sarama.WaitForAll
@@ -48,8 +54,8 @@ func (k *KafkaSender) sendToKafka() {
 	// 从channel中读取日志内容放到kafka消息队列中
 	for v := range k.lineChan {
 		msg := &sarama.ProducerMessage{}
-		msg.Topic = "nginx_log"
-		msg.Value = sarama.StringEncoder(v)
+		msg.Topic = v.topic
+		msg.Value = sarama.StringEncoder(v.line)
 		_, _, err := k.client.SendMessage(msg)
 		if err != nil {
 			logs.Error("send message to kafka failed,err:%v", err)
@@ -57,8 +63,8 @@ func (k *KafkaSender) sendToKafka() {
 	}
 }
 
-func (k *KafkaSender) addMessage(line string) (err error) {
+func (k *KafkaSender) addMessage(line, topic string) (err error) {
 	// 我们通过tailf读取的日志文件内容先放到channel里面
-	k.lineChan <- line
+	k.lineChan <- &Message{line: line, topic: topic}
 	return
 }

@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"time"
 
 	"github.com/astaxie/beego/logs"
 )
@@ -48,13 +49,13 @@ func main() {
 		panic(fmt.Sprintf("init log failed,err:%v\n", err))
 	}
 
-	// ipArrays, err = getLocalIP()
-	// logs.Info(ipArrays)
-	// if err != nil {
-	// 	logs.Error("get local ip failed, err:%v", err)
-	// 	return
-	// }
-	// logs.Debug("get local ip succ, ips:%v", ipArrays)
+	ipArrays, err = getLocalIP()
+	logs.Info(ipArrays)
+	if err != nil {
+		logs.Error("get local ip failed, err:%v", err)
+		return
+	}
+	logs.Debug("get local ip succ, ips:%v", ipArrays)
 
 	err = initKafka()
 	if err != nil {
@@ -62,12 +63,12 @@ func main() {
 		return
 	}
 
-	// err = initEtcd(appConfig.etcdAddr, appConfig.etcdWatchKeyFmt,
-	// 	time.Duration(appConfig.etcdTimeout)*time.Millisecond)
-	// if err != nil {
-	// 	logs.Error("init etcd failed, err:%v", err)
-	// 	return
-	// }
+	err = initEtcd(appConfig.etcdAddr, appConfig.etcdWatchKeyFmt,
+		time.Duration(appConfig.etcdTimeout)*time.Millisecond)
+	if err != nil {
+		logs.Error("init etcd failed, err:%v", err)
+		return
+	}
 
 	logs.Debug("init success")
 	RunServer()
