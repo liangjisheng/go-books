@@ -1,0 +1,1 @@
+time="2020-02-09T21:07:30+08:00" level=info msg="info msg"
