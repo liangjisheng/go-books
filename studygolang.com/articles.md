@@ -26,3 +26,13 @@
 [GC](https://juejin.im/post/5cf0ffa7f265da1ba56b052a)
 [GC](https://juejin.im/post/5d398417f265da1b904c26b6)
 [GC](http://legendtkl.com/2017/04/28/golang-gc/)
+
+[go-log-collect-1](https://www.cnblogs.com/zhaof/p/8641951.html)
+[go-log-collect-2](https://www.cnblogs.com/zhaof/p/8673420.html)
+[go-log-collect-3](https://www.cnblogs.com/zhaof/p/8910761.html)
+[go-log-collect-4](https://www.cnblogs.com/zhaof/p/8948516.html)
+[go-log-collect-github](https://github.com/pythonsite/logagent)
+[go-log-collect-github](https://github.com/pythonsite/logtransfer)
+
+[distributed locker](https://github.com/nladuo/go-zk-lock)
+[distributed fifo queue](https://github.com/nladuo/go-zk-fifo)
