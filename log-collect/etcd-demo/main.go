@@ -2,12 +2,20 @@ package main
 
 import (
 	"context"
+	"encoding/json"
 	"fmt"
 	"log"
 	"time"
 
 	"go.etcd.io/etcd/clientv3"
 )
+
+type logConfig struct {
+	Topic    string `json:"topic"`
+	LogPath  string `json:"log_path"`
+	Service  string `json:"service"`
+	SendRate int    `json:"send_rate"`
+}
 
 func main() {
 	client, err := clientv3.New(clientv3.Config{
@@ -20,8 +28,22 @@ func main() {
 	}
 	defer client.Close()
 
+	logConfs := []logConfig{
+		logConfig{
+			Topic:    "nginx_log",
+			LogPath:  "../tailf-demo/my.log",
+			Service:  "nginx_log",
+			SendRate: 100,
+		},
+	}
+	logConfsBytes, err := json.Marshal(logConfs)
+	if err != nil {
+		log.Println(err.Error())
+		return
+	}
+
 	ctx, cancelFunc := context.WithTimeout(context.Background(), 5*time.Second)
-	_, err = client.Put(ctx, "/logagent/169.254.214.88/log_config", "../tailf-demo/my.log")
+	_, err = client.Put(ctx, "/logagent/169.254.214.88/log_config", string(logConfsBytes))
 	defer cancelFunc()
 	if err != nil {
 		log.Println("cli.Put", err.Error())

@@ -108,7 +108,7 @@ func (t *TailMgr) reloadConfig(logConfArr []logConfig) (err error) {
 func (t *TailMgr) Process() {
 	logChan := GetLogConf()
 	for conf := range logChan {
-		logs.Debug("log conf :%v", conf)
+		logs.Debug("log conf: %v", conf)
 		var logConfArr []logConfig
 		err := json.Unmarshal([]byte(conf), &logConfArr)
 		if err != nil {

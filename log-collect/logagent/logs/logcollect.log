@@ -1,24 +1,25 @@
-2020/01/19 20:14:38.668 [D]  init success
-2020/01/19 20:18:32.452 [D]  init success
-2020/01/20 11:59:00.695 [D]  init success
-2020/01/20 15:17:21.617 [I]  [2.0.1.9 169.254.134.40 169.254.84.169 169.254.86.116 169.254.95.12 192.168.60.252 169.254.214.88]
-2020/01/20 15:17:21.617 [D]  get local ip succ, ips:[2.0.1.9 169.254.134.40 169.254.84.169 169.254.86.116 169.254.95.12 192.168.60.252 169.254.214.88]
-2020/01/20 15:17:21.654 [D]  etcd watch key:[/logagent/2.0.1.9/log_config /logagent/169.254.134.40/log_config /logagent/169.254.84.169/log_config /logagent/169.254.86.116/log_config /logagent/169.254.95.12/log_config /logagent/192.168.60.252/log_config /logagent/169.254.214.88/log_config] timeout:5s
-2020/01/20 15:17:21.666 [D]  init etcd success
-2020/01/20 15:17:21.800 [D]  init success
-2020/01/20 15:23:18.593 [I]  [2.0.1.9 169.254.134.40 169.254.84.169 169.254.86.116 169.254.95.12 192.168.60.252 169.254.214.88]
-2020/01/20 15:23:18.593 [D]  get local ip succ, ips:[2.0.1.9 169.254.134.40 169.254.84.169 169.254.86.116 169.254.95.12 192.168.60.252 169.254.214.88]
-2020/01/20 15:23:18.632 [D]  etcd watch key:[/logagent/2.0.1.9/log_config /logagent/169.254.134.40/log_config /logagent/169.254.84.169/log_config /logagent/169.254.86.116/log_config /logagent/169.254.95.12/log_config /logagent/192.168.60.252/log_config /logagent/169.254.214.88/log_config] timeout:5s
-2020/01/20 15:23:18.649 [D]  init etcd success
-2020/01/20 15:23:18.783 [D]  "/logagent/169.254.214.88/log_config" : "../tailf-demo/my.log"
+2020/02/13 15:12:16.444 [I]  [2.0.1.23 169.254.134.40 169.254.84.169 169.254.86.116 169.254.95.12 192.168.1.105 169.254.214.88]
+2020/02/13 15:12:16.445 [D]  get local ip succ, ips:[2.0.1.23 169.254.134.40 169.254.84.169 169.254.86.116 169.254.95.12 192.168.1.105 169.254.214.88]
+2020/02/13 15:12:16.493 [D]  etcd watch key:[/logagent/2.0.1.23/log_config /logagent/169.254.134.40/log_config /logagent/169.254.84.169/log_config /logagent/169.254.86.116/log_config /logagent/169.254.95.12/log_config /logagent/192.168.1.105/log_config /logagent/169.254.214.88/log_config] timeout:5s
+2020/02/13 15:12:16.496 [D]  init etcd success
+2020/02/13 15:12:16.587 [D]  "/logagent/169.254.214.88/log_config" : "[{\"topic\":\"nginx_log\",\"log_path\":\"../tailf-demo/my.log\",\"service\":\"nginx_log\",\"send_rate\":100}]"
 
-2020/01/20 15:23:18.783 [D]  init success
-2020/01/20 15:42:52.869 [I]  [2.0.1.9 169.254.134.40 169.254.84.169 169.254.86.116 169.254.95.12 192.168.60.252 169.254.214.88]
-2020/01/20 15:42:52.869 [D]  get local ip succ, ips:[2.0.1.9 169.254.134.40 169.254.84.169 169.254.86.116 169.254.95.12 192.168.60.252 169.254.214.88]
-2020/01/20 15:42:52.905 [D]  etcd watch key:[/logagent/2.0.1.9/log_config /logagent/169.254.134.40/log_config /logagent/169.254.84.169/log_config /logagent/169.254.86.116/log_config /logagent/169.254.95.12/log_config /logagent/192.168.60.252/log_config /logagent/169.254.214.88/log_config] timeout:5s
-2020/01/20 15:42:52.907 [D]  init etcd success
-2020/01/20 15:42:53.020 [D]  "/logagent/169.254.214.88/log_config" : "../tailf-demo/my.log"
-
-2020/01/20 15:42:53.020 [D]  init success
-2020/01/20 15:42:53.020 [D]  log conf :../tailf-demo/my.log
-2020/01/20 15:42:53.020 [E]  unmarshal failed,err:invalid character '.' looking for beginning of value conf:../tailf-demo/my.log
+2020/02/13 15:12:16.587 [D]  init success
+2020/02/13 15:12:16.587 [D]  log conf: [{"topic":"nginx_log","log_path":"../tailf-demo/my.log","service":"nginx_log","send_rate":100}]
+2020/02/13 15:12:16.587 [D]  unmarshal succ conf:[{nginx_log ../tailf-demo/my.log nginx_log 100}]
+2020/02/13 15:12:16.587 [D]  conf:{nginx_log ../tailf-demo/my.log nginx_log 100} -- tailobj:<nil>
+2020/02/13 15:12:16.587 [I]  map [map[../tailf-demo/my.log:%!s(*main.TailObj=&{0xc000124210 0 0xc00002d3e0 {nginx_log ../tailf-demo/my.log nginx_log 100} 0xc00002f420})]]
+2020/02/13 15:12:16.587 [D]  reaload from etcd success,config:[{nginx_log ../tailf-demo/my.log nginx_log 100}]
+2020/02/13 15:12:56.446 [D]  limit is exited
+2020/02/13 15:12:58.451 [D]  limit is exited
+2020/02/13 15:13:00.457 [D]  limit is exited
+2020/02/13 15:13:02.461 [D]  limit is exited
+2020/02/13 15:13:04.466 [D]  limit is exited
+2020/02/13 15:13:06.475 [D]  limit is exited
+2020/02/13 15:13:08.479 [D]  limit is exited
+2020/02/13 15:13:10.486 [D]  limit is exited
+2020/02/13 15:13:12.490 [D]  limit is exited
+2020/02/13 15:13:14.496 [D]  limit is exited
+2020/02/13 15:13:16.501 [D]  limit is exited
+2020/02/13 15:13:18.507 [D]  limit is exited
+2020/02/13 15:13:20.511 [D]  limit is exited
