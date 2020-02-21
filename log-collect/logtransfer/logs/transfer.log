@@ -1,0 +1,94 @@
+2020/02/21 18:33:11.688 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"117.51.148.112:9092", esAddr:"http://117.51.148.112:9200/", esThreadNum:8, etcdAddr:"117.51.148.112:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2020/02/21 18:33:11.724 [D]  conn to es success
+2020/02/21 18:33:11.738 [D]  etcd addr:117.51.148.112:2379
+2020/02/21 18:33:11.738 [D]  etcd watch key:[/logtransfer/2.0.1.20/log_config /logtransfer/169.254.134.40/log_config /logtransfer/169.254.84.169/log_config /logtransfer/169.254.86.116/log_config /logtransfer/169.254.95.12/log_config /logtransfer/192.168.1.105/log_config /logtransfer/169.254.214.88/log_config], timeout:5000000000
+2020/02/21 18:33:11.740 [D]  init etcd succ
+2020/02/21 18:33:11.827 [D]   "/logtransfer/169.254.214.88/log_config" : "[{\"topic\":\"nginx_log\",\"log_path\":\"../tailf-demo/my.log\",\"service\":\"nginx_log\",\"send_rate\":100}]"
+
+2020/02/21 18:33:11.827 [E]  unmarshal failed,err:json: cannot unmarshal object into Go value of type string conf:[{"topic":"nginx_log","log_path":"../tailf-demo/my.log","service":"nginx_log","send_rate":100}]
+2020/02/21 18:33:46.471 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"117.51.148.112:9092", esAddr:"http://117.51.148.112:9200/", esThreadNum:8, etcdAddr:"117.51.148.112:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2020/02/21 18:33:46.501 [D]  conn to es success
+2020/02/21 18:33:46.517 [D]  etcd addr:117.51.148.112:2379
+2020/02/21 18:33:46.518 [D]  etcd watch key:[/logtransfer/2.0.1.20/log_config /logtransfer/169.254.134.40/log_config /logtransfer/169.254.84.169/log_config /logtransfer/169.254.86.116/log_config /logtransfer/169.254.95.12/log_config /logtransfer/192.168.1.105/log_config /logtransfer/169.254.214.88/log_config], timeout:5000000000
+2020/02/21 18:33:46.520 [D]  init etcd succ
+2020/02/21 18:33:46.595 [D]   "/logtransfer/169.254.214.88/log_config" : "[{\"topic\":\"nginx_log\",\"log_path\":\"../tailf-demo/my.log\",\"service\":\"nginx_log\",\"send_rate\":100}]"
+
+2020/02/21 18:33:46.630 [D]  connect to kafka succ, topic:nginx_log
+2020/02/21 18:34:29.588 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"117.51.148.112:9092", esAddr:"http://117.51.148.112:9200/", esThreadNum:8, etcdAddr:"117.51.148.112:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2020/02/21 18:34:29.620 [D]  conn to es success
+2020/02/21 18:34:29.634 [D]  etcd addr:117.51.148.112:2379
+2020/02/21 18:34:29.634 [D]  etcd watch key:[/logtransfer/2.0.1.20/log_config /logtransfer/169.254.134.40/log_config /logtransfer/169.254.84.169/log_config /logtransfer/169.254.86.116/log_config /logtransfer/169.254.95.12/log_config /logtransfer/192.168.1.105/log_config /logtransfer/169.254.214.88/log_config], timeout:5000000000
+2020/02/21 18:34:29.636 [D]  init etcd succ
+2020/02/21 18:34:29.708 [D]   "/logtransfer/169.254.214.88/log_config" : "[{\"topic\":\"nginx_log\",\"log_path\":\"../tailf-demo/my.log\",\"service\":\"nginx_log\",\"send_rate\":100}]"
+
+2020/02/21 18:34:29.737 [D]  connect to kafka succ, topic:nginx_log
+2020/02/21 18:34:44.088 [D]  Partition:0, Offset:165, Key:, Value:2
+2020/02/21 18:34:44.639 [D]  send to es success
+2020/02/21 18:34:46.068 [D]  Partition:0, Offset:166, Key:, Value:3
+2020/02/21 18:34:46.095 [D]  send to es success
+2020/02/21 18:34:48.078 [D]  Partition:0, Offset:167, Key:, Value:4
+2020/02/21 18:34:48.102 [D]  send to es success
+2020/02/21 18:34:50.092 [D]  Partition:0, Offset:168, Key:, Value:5
+2020/02/21 18:34:50.114 [D]  send to es success
+2020/02/21 18:34:52.087 [D]  Partition:0, Offset:169, Key:, Value:6
+2020/02/21 18:34:52.113 [D]  send to es success
+2020/02/21 18:34:54.114 [D]  Partition:0, Offset:170, Key:, Value:7
+2020/02/21 18:34:54.134 [D]  send to es success
+2020/02/21 18:34:56.113 [D]  Partition:0, Offset:171, Key:, Value:8
+2020/02/21 18:34:56.145 [D]  send to es success
+2020/02/21 18:34:58.103 [D]  Partition:0, Offset:172, Key:, Value:9
+2020/02/21 18:34:58.125 [D]  send to es success
+2020/02/21 18:35:00.111 [D]  Partition:0, Offset:173, Key:, Value:10
+2020/02/21 18:35:00.133 [D]  send to es success
+2020/02/21 18:35:01.861 [D]  Partition:0, Offset:174, Key:, Value:11
+2020/02/21 18:35:01.880 [D]  send to es success
+2020/02/21 18:35:03.873 [D]  Partition:0, Offset:175, Key:, Value:12
+2020/02/21 18:35:03.907 [D]  send to es success
+2020/02/21 18:35:05.870 [D]  Partition:0, Offset:176, Key:, Value:13
+2020/02/21 18:35:05.895 [D]  send to es success
+2020/02/21 18:35:07.874 [D]  Partition:0, Offset:177, Key:, Value:14
+2020/02/21 18:35:07.897 [D]  send to es success
+2020/02/21 18:35:09.880 [D]  Partition:0, Offset:178, Key:, Value:15
+2020/02/21 18:35:09.902 [D]  send to es success
+2020/02/21 18:35:11.886 [D]  Partition:0, Offset:179, Key:, Value:16
+2020/02/21 18:35:11.908 [D]  send to es success
+2020/02/21 18:35:13.889 [D]  Partition:0, Offset:180, Key:, Value:17
+2020/02/21 18:35:13.908 [D]  send to es success
+2020/02/21 18:35:15.927 [D]  Partition:0, Offset:181, Key:, Value:18
+2020/02/21 18:35:15.947 [D]  send to es success
+2020/02/21 18:35:17.896 [D]  Partition:0, Offset:182, Key:, Value:19
+2020/02/21 18:35:17.920 [D]  send to es success
+2020/02/21 18:35:19.899 [D]  Partition:0, Offset:183, Key:, Value:20
+2020/02/21 18:35:19.920 [D]  send to es success
+2020/02/21 18:35:21.907 [D]  Partition:0, Offset:184, Key:, Value:21
+2020/02/21 18:35:21.925 [D]  send to es success
+2020/02/21 18:35:23.920 [D]  Partition:0, Offset:185, Key:, Value:22
+2020/02/21 18:35:23.939 [D]  send to es success
+2020/02/21 18:35:25.926 [D]  Partition:0, Offset:186, Key:, Value:23
+2020/02/21 18:35:25.943 [D]  send to es success
+2020/02/21 18:35:27.921 [D]  Partition:0, Offset:187, Key:, Value:24
+2020/02/21 18:35:27.943 [D]  send to es success
+2020/02/21 18:35:29.927 [D]  Partition:0, Offset:188, Key:, Value:25
+2020/02/21 18:35:29.948 [D]  send to es success
+2020/02/21 18:35:31.929 [D]  Partition:0, Offset:189, Key:, Value:26
+2020/02/21 18:35:31.947 [D]  send to es success
+2020/02/21 18:35:33.939 [D]  Partition:0, Offset:190, Key:, Value:27
+2020/02/21 18:35:33.958 [D]  send to es success
+2020/02/21 18:35:35.939 [D]  Partition:0, Offset:191, Key:, Value:28
+2020/02/21 18:35:35.960 [D]  send to es success
+2020/02/21 18:35:37.980 [D]  Partition:0, Offset:192, Key:, Value:29
+2020/02/21 18:35:37.997 [D]  send to es success
+2020/02/21 18:35:39.945 [D]  Partition:0, Offset:193, Key:, Value:30
+2020/02/21 18:35:39.962 [D]  send to es success
+2020/02/21 18:35:41.948 [D]  Partition:0, Offset:194, Key:, Value:31
+2020/02/21 18:35:41.964 [D]  send to es success
+2020/02/21 18:35:43.955 [D]  Partition:0, Offset:195, Key:, Value:32
+2020/02/21 18:35:43.973 [D]  send to es success
+2020/02/21 18:35:45.959 [D]  Partition:0, Offset:196, Key:, Value:33
+2020/02/21 18:35:45.978 [D]  send to es success
+2020/02/21 18:35:47.964 [D]  Partition:0, Offset:197, Key:, Value:34
+2020/02/21 18:35:47.985 [D]  send to es success
+2020/02/21 18:35:49.968 [D]  Partition:0, Offset:198, Key:, Value:35
+2020/02/21 18:35:49.988 [D]  send to es success
+2020/02/21 18:35:51.971 [D]  Partition:0, Offset:199, Key:, Value:36
+2020/02/21 18:35:51.990 [D]  send to es success

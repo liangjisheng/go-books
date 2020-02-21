@@ -17,7 +17,7 @@ type logConfig struct {
 	SendRate int    `json:"send_rate"`
 }
 
-func main() {
+func setConfig(key string) {
 	client, err := clientv3.New(clientv3.Config{
 		Endpoints:   []string{"117.51.148.112:2379"},
 		DialTimeout: 5 * time.Second,
@@ -43,7 +43,7 @@ func main() {
 	}
 
 	ctx, cancelFunc := context.WithTimeout(context.Background(), 5*time.Second)
-	_, err = client.Put(ctx, "/logagent/169.254.214.88/log_config", string(logConfsBytes))
+	_, err = client.Put(ctx, key, string(logConfsBytes))
 	defer cancelFunc()
 	if err != nil {
 		log.Println("cli.Put", err.Error())
@@ -51,7 +51,7 @@ func main() {
 	}
 
 	ctx, cancelFunc = context.WithTimeout(context.Background(), 2*time.Second)
-	res, err := client.Get(ctx, "/logagent/169.254.214.88/log_config")
+	res, err := client.Get(ctx, key)
 	defer cancelFunc()
 	if err != nil {
 		log.Println("cli.Get", err.Error())
@@ -65,4 +65,11 @@ func main() {
 	for k, v := range res.Kvs {
 		fmt.Println("res", k, string(v.Key), string(v.Value))
 	}
+}
+
+func main() {
+	key := "/logagent/169.254.214.88/log_config"
+	setConfig(key)
+	key = "/logtransfer/169.254.214.88/log_config"
+	setConfig(key)
 }

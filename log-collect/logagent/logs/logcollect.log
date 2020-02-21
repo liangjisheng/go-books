@@ -23,3 +23,131 @@
 2020/02/13 15:13:16.501 [D]  limit is exited
 2020/02/13 15:13:18.507 [D]  limit is exited
 2020/02/13 15:13:20.511 [D]  limit is exited
+2020/02/21 18:02:56.313 [I]  [2.0.1.20 169.254.134.40 169.254.84.169 169.254.86.116 169.254.95.12 192.168.1.105 169.254.214.88]
+2020/02/21 18:02:56.313 [D]  get local ip succ, ips:[2.0.1.20 169.254.134.40 169.254.84.169 169.254.86.116 169.254.95.12 192.168.1.105 169.254.214.88]
+2020/02/21 18:02:56.344 [D]  etcd watch key:[/logagent/2.0.1.20/log_config /logagent/169.254.134.40/log_config /logagent/169.254.84.169/log_config /logagent/169.254.86.116/log_config /logagent/169.254.95.12/log_config /logagent/192.168.1.105/log_config /logagent/169.254.214.88/log_config] timeout:5s
+2020/02/21 18:02:56.346 [D]  init etcd success
+2020/02/21 18:02:56.422 [D]  "/logagent/169.254.214.88/log_config" : "[{\"topic\":\"nginx_log\",\"log_path\":\"../tailf-demo/my.log\",\"service\":\"nginx_log\",\"send_rate\":100}]"
+
+2020/02/21 18:02:56.423 [D]  init success
+2020/02/21 18:02:56.423 [D]  log conf: [{"topic":"nginx_log","log_path":"../tailf-demo/my.log","service":"nginx_log","send_rate":100}]
+2020/02/21 18:02:56.423 [D]  unmarshal succ conf:[{nginx_log ../tailf-demo/my.log nginx_log 100}]
+2020/02/21 18:02:56.423 [D]  conf:{nginx_log ../tailf-demo/my.log nginx_log 100} -- tailobj:<nil>
+2020/02/21 18:02:56.423 [I]  map [map[../tailf-demo/my.log:%!s(*main.TailObj=&{0xc00016e160 0 0xc00002d720 {nginx_log ../tailf-demo/my.log nginx_log 100} 0xc00002f420})]]
+2020/02/21 18:02:56.423 [D]  reaload from etcd success,config:[{nginx_log ../tailf-demo/my.log nginx_log 100}]
+2020/02/21 18:02:56.923 [D]  limit is exited
+2020/02/21 18:02:58.927 [D]  limit is exited
+2020/02/21 18:03:00.931 [D]  limit is exited
+2020/02/21 18:03:02.933 [D]  limit is exited
+2020/02/21 18:03:04.936 [D]  limit is exited
+2020/02/21 18:03:06.940 [D]  limit is exited
+2020/02/21 18:03:08.943 [D]  limit is exited
+2020/02/21 18:03:10.947 [D]  limit is exited
+2020/02/21 18:03:12.951 [D]  limit is exited
+2020/02/21 18:03:14.955 [D]  limit is exited
+2020/02/21 18:03:16.960 [D]  limit is exited
+2020/02/21 18:03:18.964 [D]  limit is exited
+2020/02/21 18:03:20.970 [D]  limit is exited
+2020/02/21 18:03:22.975 [D]  limit is exited
+2020/02/21 18:03:24.978 [D]  limit is exited
+2020/02/21 18:03:26.982 [D]  limit is exited
+2020/02/21 18:03:28.986 [D]  limit is exited
+2020/02/21 18:03:30.990 [D]  limit is exited
+2020/02/21 18:03:32.995 [D]  limit is exited
+2020/02/21 18:03:34.998 [D]  limit is exited
+2020/02/21 18:03:37.001 [D]  limit is exited
+2020/02/21 18:03:39.005 [D]  limit is exited
+2020/02/21 18:03:41.009 [D]  limit is exited
+2020/02/21 18:03:43.014 [D]  limit is exited
+2020/02/21 18:03:45.018 [D]  limit is exited
+2020/02/21 18:03:47.021 [D]  limit is exited
+2020/02/21 18:03:49.029 [D]  limit is exited
+2020/02/21 18:03:51.034 [D]  limit is exited
+2020/02/21 18:03:53.039 [D]  limit is exited
+2020/02/21 18:03:55.044 [D]  limit is exited
+2020/02/21 18:03:57.047 [D]  limit is exited
+2020/02/21 18:03:59.053 [D]  limit is exited
+2020/02/21 18:04:01.057 [D]  limit is exited
+2020/02/21 18:04:03.061 [D]  limit is exited
+2020/02/21 18:04:05.066 [D]  limit is exited
+2020/02/21 18:04:07.072 [D]  limit is exited
+2020/02/21 18:04:09.076 [D]  limit is exited
+2020/02/21 18:04:11.080 [D]  limit is exited
+2020/02/21 18:04:13.085 [D]  limit is exited
+2020/02/21 18:04:15.089 [D]  limit is exited
+2020/02/21 18:04:17.093 [D]  limit is exited
+2020/02/21 18:04:19.098 [D]  limit is exited
+2020/02/21 18:04:21.100 [D]  limit is exited
+2020/02/21 18:04:23.106 [D]  limit is exited
+2020/02/21 18:04:25.110 [D]  limit is exited
+2020/02/21 18:04:27.114 [D]  limit is exited
+2020/02/21 18:04:29.118 [D]  limit is exited
+2020/02/21 18:04:31.122 [D]  limit is exited
+2020/02/21 18:04:33.127 [D]  limit is exited
+2020/02/21 18:04:35.132 [D]  limit is exited
+2020/02/21 18:04:37.137 [D]  limit is exited
+2020/02/21 18:04:39.140 [D]  limit is exited
+2020/02/21 18:04:41.143 [D]  limit is exited
+2020/02/21 18:04:43.146 [D]  limit is exited
+2020/02/21 18:04:45.150 [D]  limit is exited
+2020/02/21 18:04:47.155 [D]  limit is exited
+2020/02/21 18:04:49.159 [D]  limit is exited
+2020/02/21 18:04:51.164 [D]  limit is exited
+2020/02/21 18:04:52.919 [D]  limit is exited
+2020/02/21 18:04:54.923 [D]  limit is exited
+2020/02/21 18:04:56.928 [D]  limit is exited
+2020/02/21 18:04:58.933 [D]  limit is exited
+2020/02/21 18:05:00.935 [D]  limit is exited
+2020/02/21 18:05:02.937 [D]  limit is exited
+2020/02/21 18:05:04.942 [D]  limit is exited
+2020/02/21 18:05:06.946 [D]  limit is exited
+2020/02/21 18:05:08.949 [D]  limit is exited
+2020/02/21 18:05:10.953 [D]  limit is exited
+2020/02/21 18:05:12.956 [D]  limit is exited
+2020/02/21 18:34:43.456 [I]  [2.0.1.20 169.254.134.40 169.254.84.169 169.254.86.116 169.254.95.12 192.168.1.105 169.254.214.88]
+2020/02/21 18:34:43.456 [D]  get local ip succ, ips:[2.0.1.20 169.254.134.40 169.254.84.169 169.254.86.116 169.254.95.12 192.168.1.105 169.254.214.88]
+2020/02/21 18:34:43.480 [D]  etcd watch key:[/logagent/2.0.1.20/log_config /logagent/169.254.134.40/log_config /logagent/169.254.84.169/log_config /logagent/169.254.86.116/log_config /logagent/169.254.95.12/log_config /logagent/192.168.1.105/log_config /logagent/169.254.214.88/log_config] timeout:5s
+2020/02/21 18:34:43.482 [D]  init etcd success
+2020/02/21 18:34:43.553 [D]  "/logagent/169.254.214.88/log_config" : "[{\"topic\":\"nginx_log\",\"log_path\":\"../tailf-demo/my.log\",\"service\":\"nginx_log\",\"send_rate\":100}]"
+
+2020/02/21 18:34:43.553 [D]  init success
+2020/02/21 18:34:43.554 [D]  log conf: [{"topic":"nginx_log","log_path":"../tailf-demo/my.log","service":"nginx_log","send_rate":100}]
+2020/02/21 18:34:43.554 [D]  unmarshal succ conf:[{nginx_log ../tailf-demo/my.log nginx_log 100}]
+2020/02/21 18:34:43.554 [D]  conf:{nginx_log ../tailf-demo/my.log nginx_log 100} -- tailobj:<nil>
+2020/02/21 18:34:43.554 [I]  map [map[../tailf-demo/my.log:%!s(*main.TailObj=&{0xc0003e60b0 0 0xc0002941d0 {nginx_log ../tailf-demo/my.log nginx_log 100} 0xc0003dc380})]]
+2020/02/21 18:34:43.554 [D]  reaload from etcd success,config:[{nginx_log ../tailf-demo/my.log nginx_log 100}]
+2020/02/21 18:34:44.055 [D]  limit is exited
+2020/02/21 18:34:46.061 [D]  limit is exited
+2020/02/21 18:34:48.066 [D]  limit is exited
+2020/02/21 18:34:50.069 [D]  limit is exited
+2020/02/21 18:34:52.073 [D]  limit is exited
+2020/02/21 18:34:54.079 [D]  limit is exited
+2020/02/21 18:34:56.086 [D]  limit is exited
+2020/02/21 18:34:58.091 [D]  limit is exited
+2020/02/21 18:35:00.096 [D]  limit is exited
+2020/02/21 18:35:01.850 [D]  limit is exited
+2020/02/21 18:35:03.857 [D]  limit is exited
+2020/02/21 18:35:05.862 [D]  limit is exited
+2020/02/21 18:35:07.866 [D]  limit is exited
+2020/02/21 18:35:09.871 [D]  limit is exited
+2020/02/21 18:35:11.875 [D]  limit is exited
+2020/02/21 18:35:13.880 [D]  limit is exited
+2020/02/21 18:35:15.884 [D]  limit is exited
+2020/02/21 18:35:17.888 [D]  limit is exited
+2020/02/21 18:35:19.891 [D]  limit is exited
+2020/02/21 18:35:21.896 [D]  limit is exited
+2020/02/21 18:35:23.900 [D]  limit is exited
+2020/02/21 18:35:25.905 [D]  limit is exited
+2020/02/21 18:35:27.910 [D]  limit is exited
+2020/02/21 18:35:29.914 [D]  limit is exited
+2020/02/21 18:35:31.920 [D]  limit is exited
+2020/02/21 18:35:33.926 [D]  limit is exited
+2020/02/21 18:35:35.930 [D]  limit is exited
+2020/02/21 18:35:37.933 [D]  limit is exited
+2020/02/21 18:35:39.936 [D]  limit is exited
+2020/02/21 18:35:41.940 [D]  limit is exited
+2020/02/21 18:35:43.945 [D]  limit is exited
+2020/02/21 18:35:45.949 [D]  limit is exited
+2020/02/21 18:35:47.954 [D]  limit is exited
+2020/02/21 18:35:49.959 [D]  limit is exited
+2020/02/21 18:35:51.962 [D]  limit is exited
