@@ -33,6 +33,3 @@
 [go-log-collect-4](https://www.cnblogs.com/zhaof/p/8948516.html)
 [go-log-collect-github](https://github.com/pythonsite/logagent)
 [go-log-collect-github](https://github.com/pythonsite/logtransfer)
-
-[distributed locker](https://github.com/nladuo/go-zk-lock)
-[distributed fifo queue](https://github.com/nladuo/go-zk-fifo)

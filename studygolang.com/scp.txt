@@ -1,0 +1,4 @@
+// 2条命令都是在dev执行
+scp root@coin05:/root/liangjisheng/kibana-7.6.0-linux-x86_64.tar.gz .
+
+scp kibana-7.6.0-linux-x86_64.tar.gz root@117.51.148.112:/usr/local/
