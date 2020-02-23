@@ -1,13 +1,7 @@
 # studygolang.com articles
 
-elasticsearch
-
-[nginx](https://www.w3cschool.cn/nginx/index.html)
-[mysql](https://www.w3cschool.cn/mysql/mysql-create-database.html)
-
+[nginx](https://blog.csdn.net/qq_40036754/article/details/102463099)
 [Prometheus](https://studygolang.com/topics/10813?fr=sidebar)
-[distributed locker](https://github.com/nladuo/go-zk-lock)
-[distributed fifo queue](https://github.com/nladuo/go-zk-fifo)
 
 [go-kit](https://studygolang.com/topics/10731#reply0)
 [go-kit](https://github.com/hwholiday/learning_tools/tree/master/go-kit)
@@ -21,3 +15,5 @@ elasticsearch
 
 [用Go语言手撸了一个和Gin很像的Web框架](https://studygolang.com/topics/9907?fr=sidebar)
 [用Go语言手撸了一个和Gin很像的Web框架](https://geektutu.com/post/gee.html)
+[go-dig](https://studygolang.com/articles/26740#reply0)
+[go-dig](https://github.com/uber-go/dig)
