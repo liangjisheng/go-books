@@ -1,0 +1,10 @@
+{"level":"debug","ts":1583054132583,"caller":"log-zap/log_test.go:15","msg":"debug log 1","line":47}
+{"level":"debug","ts":1583054133596,"caller":"log-zap/log_test.go:15","msg":"debug log 1","line":47}
+{"level":"debug","ts":1583054134598,"caller":"log-zap/log_test.go:15","msg":"debug log 1","line":47}
+{"level":"debug","ts":1583054135598,"caller":"log-zap/log_test.go:15","msg":"debug log 1","line":47}
+{"level":"debug","ts":1583054136598,"caller":"log-zap/log_test.go:15","msg":"debug log 1","line":47}
+{"level":"debug","ts":1583054137601,"caller":"log-zap/log_test.go:15","msg":"debug log 1","line":47}
+{"level":"debug","ts":1583054138603,"caller":"log-zap/log_test.go:15","msg":"debug log 1","line":47}
+{"level":"debug","ts":1583054139604,"caller":"log-zap/log_test.go:15","msg":"debug log 1","line":47}
+{"level":"debug","ts":1583054140605,"caller":"log-zap/log_test.go:15","msg":"debug log 1","line":47}
+{"level":"debug","ts":1583054141605,"caller":"log-zap/log_test.go:15","msg":"debug log 1","line":47}
