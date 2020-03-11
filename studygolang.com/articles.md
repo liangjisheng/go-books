@@ -1,5 +1,8 @@
 # good articles
 
+[7天用Go从零实现分布式缓存GeeCache](https://geektutu.com/post/geecache.html)
+[algorithm](https://mp.weixin.qq.com/s/sJ4ksVBsGIZOelVCpZyQaw)
+
 [go-http](https://studygolang.com/articles/24738)
 [channel](https://studygolang.com/articles/25216#reply0)
 
@@ -41,3 +44,32 @@
 [go-log-collect-4](https://www.cnblogs.com/zhaof/p/8948516.html)
 [go-log-collect-github](https://github.com/pythonsite/logagent)
 [go-log-collect-github](https://github.com/pythonsite/logtransfer)
+
+## IO
+
+[IO](https://www.cyhone.com/articles/reunderstanding-of-non-blocking-io/)
+[IO](https://www.zhihu.com/question/52989189)
+[IO](https://www.zhihu.com/question/37271342)
+[IO](https://www.cnblogs.com/Anker/p/3269106.html)
+[IO](https://www.jianshu.com/p/486b0965c296)
+[IO](https://www.jianshu.com/p/dfd940e7fca2)
+[IO](http://matt33.com/2017/08/06/unix-io/)
+[IO](http://matt33.com/2017/08/12/java-nio/)
+
+## nginx
+
+[nginx](https://juejin.im/post/5b4bdb54e51d45191e0cd774)
+[nginx](https://juejin.im/post/5cdea826e51d4510b934dcb5)
+[nginx](https://segmentfault.com/a/1190000018261096)
+
+## MQ
+
+[kafka](https://blog.csdn.net/dapeng1995/article/details/81536862)
+[kafka](https://blog.csdn.net/liyiming2017/article/details/82805479)
+[kafka](https://www.w3cschool.cn/apache_kafka/apache_kafka_quick_guide.html)
+
+[ActiveMQ](https://www.cnblogs.com/lzylcf/p/9381446.html)
+[ActiveMQ](https://www.cnblogs.com/cxyyh/p/10700437.html)
+
+[RocketMQ](https://segmentfault.com/a/1190000017841402)
+[RocketMQ](https://www.cnblogs.com/qdhxhz/category/1221076.html)

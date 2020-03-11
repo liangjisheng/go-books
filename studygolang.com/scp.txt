@@ -1,4 +1,4 @@
 // 2条命令都是在dev执行
-scp root@coin05:/root/liangjisheng/v1.7.1.tar.gz .
+scp root@coin05:/root/liangjisheng/mysql-8.0.19-linux-glibc2.12-x86_64.tar.xz .
 
-scp v1.7.1.tar.gz root@117.51.148.112:/usr/local/prometheus
+scp mysql-8.0.19-linux-glibc2.12-x86_64.tar.xz root@117.51.148.112:/usr/local/
