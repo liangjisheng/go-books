@@ -73,3 +73,8 @@
 
 [RocketMQ](https://segmentfault.com/a/1190000017841402)
 [RocketMQ](https://www.cnblogs.com/qdhxhz/category/1221076.html)
+
+[nsq](https://www.cnblogs.com/linkstar/p/10341685.html)
+[nsq](https://www.jianshu.com/p/d933a98ae817)
+[nsq](https://segmentfault.com/a/1190000012882466)
+[nsq](https://www.liuin.cn/2018/07/11/%E5%88%86%E5%B8%83%E5%BC%8F%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97-NSQ-%E5%92%8C-Kafka-%E5%AF%B9%E6%AF%94/)
