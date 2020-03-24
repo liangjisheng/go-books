@@ -16,6 +16,8 @@
 [match](https://github.com/ezpod/crypto-exchange-engine)
 [match](https://github.com/fmstephe/matching_engine)
 
+[分布式撮合](http://xiaorui.cc/archives/6429)
+
 知名交易所 API
 
 [go](https://github.com/toorop/go-bittrex)

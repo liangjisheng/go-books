@@ -1,6 +1,5 @@
 # good articles
 
-[7天用Go从零实现分布式缓存GeeCache](https://geektutu.com/post/geecache.html)
 [algorithm](https://mp.weixin.qq.com/s/sJ4ksVBsGIZOelVCpZyQaw)
 
 [go-http](https://studygolang.com/articles/24738)
@@ -25,6 +24,9 @@
 [schedule-2](http://lessisbetter.site/2019/03/26/golang-scheduler-2-macro-view/)
 [schedule-3](http://lessisbetter.site/2019/04/04/golang-scheduler-3-principle-with-graph/)
 [schedule-4](http://lessisbetter.site/2019/04/14/golang-scheduler-4-explore-source-code/)
+
+[schedule](https://studygolang.com/articles/27069)
+[schedule](https://studygolang.com/articles/27376)
 
 ## GC
 
@@ -78,3 +80,10 @@
 [nsq](https://www.jianshu.com/p/d933a98ae817)
 [nsq](https://segmentfault.com/a/1190000012882466)
 [nsq](https://www.liuin.cn/2018/07/11/%E5%88%86%E5%B8%83%E5%BC%8F%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97-NSQ-%E5%92%8C-Kafka-%E5%AF%B9%E6%AF%94/)
+
+## iptables
+
+[iptables](https://www.cnblogs.com/z-sm/p/9754801.html)
+[iptables](https://www.cnblogs.com/zongfa/p/7967935.html)
+
+[linux-core](https://linux.cn/article-8290-1.html)
