@@ -1,12 +1,5 @@
 # mysql
 
-[mysql](binlog,redolog,undolog)
-[mysql](分库分表)
-[mysql](https://mp.weixin.qq.com/mp/homepage?__biz=MzIxNTQ3NDMzMw==&hid=1&sn=30e3ee8b9f6b3bb3b15ee8981b78903a&scene=1&devicetype=Windows+10&version=62080079&lang=zh_CN&nettype=WIFI&ascene=1&session_us=gh_433eb41427a3&pass_ticket=4j5eprlqK9T7jvi1nLOrVXC%2Bbl8oVhKCsgCo1nW1eC603udgpjsitRFfSCCtKgPv&wx_header=1&uin=MjYyMTk4OTk4NA%3D%3D&key=480a52c9d22af29438e588b2f25114517a288d29c713af2829257a8dac78583eb421d95a692f74dc5e835b3c61b74486ef0b2bb232f69061ab3965fc1f369411ba23cbe74a8899b07bc0048595b08777)
-[mysql](https://blog.ouyangsihai.cn/categories/MySQL%E7%9A%84%E8%89%BA%E6%9C%AF%E4%B8%96%E7%95%8C/)
-
-## review
-
 [分库分表](https://mp.weixin.qq.com/s?__biz=MzIwMDgzMjc3NA==&mid=2247483939&idx=1&sn=7abbf7865b705057ae56a1ba797f6d79&chksm=96f6604aa181e95c47f6d1534bf3695f567ddbc5f39749f9d4644266e4a7ce51fc4e779908fd&scene=21#wechat_redirect)
 [mysql](https://mp.weixin.qq.com/s?__biz=MzI4Njg5MDA5NA==&mid=2247485433&idx=1&sn=bcee0eec2ebdfa465ba3322d13052c45&chksm=ebd746f8dca0cfeeb2025558475d1eb137eb7594aed18bc356582eb1df3171a898ae6b06e623&token=1043781454&lang=zh_CN&scene=21#wechat_redirect)
 [mysql](https://segmentfault.com/a/1190000019619667)
@@ -37,3 +30,5 @@
 [mysql](https://mp.weixin.qq.com/s?__biz=MzIwMjM4NDE1Nw==&mid=2247483807&idx=1&sn=760d3b36c3742b0413b7f6f095506fd5&chksm=96de37eda1a9befb371bf03653df7528921262c95ab1483b4ecb86a25a8315a9598c723adaa5&mpshare=1&scene=1&srcid=&sharer_sharetime=1584923913630&sharer_shareid=c71e0673fbaa15e3038063afecc3a033&key=f3de4429a3d23098f2940480547a7ca806906cc87d1b5ebcd466c5229cb9b2632332e2dbad11d8d1279ee903ed0bf9e033b3a16b7b829a1c2db091fcf5360d8805d1cbd9d977e62416136a76c966bf7c&ascene=1&uin=MjYyMTk4OTk4NA%3D%3D&devicetype=Windows+10&version=62080079&lang=zh_CN&exportkey=AQ1i4l9JO%2Bi6UDYDZ9hWr4Q%3D&pass_ticket=4j5eprlqK9T7jvi1nLOrVXC%2Bbl8oVhKCsgCo1nW1eC603udgpjsitRFfSCCtKgPv)
 [mysql](https://mp.weixin.qq.com/s?__biz=Mzg5NTEzODk4Mg==&mid=2247484270&idx=1&sn=c6ba89c8f5c6bf7257d38f0ee07dffcb&chksm=c015aea7f76227b1c9a9ba2e5d084487406f302a6b5c98d0cfc929106463f36e974f0a737f98&mpshare=1&scene=1&srcid=&sharer_sharetime=1585155254239&sharer_shareid=be082b9b55860bca135c279cbeb97d77&key=988d6e79394f42a041a7c81ddff99a2e8ac973ba8ffc322cb27e9cf064f462fee8a57844582c46928af09512333f193383579db585c9f0b2b2227a00ed6562a7cba68be857e9b7997a4c27e58e07c2e6&ascene=1&uin=MjYyMTk4OTk4NA%3D%3D&devicetype=Windows+10&version=62080079&lang=zh_CN&exportkey=AXrqVSaBvus%2F0SxAxBdNHzc%3D&pass_ticket=4j5eprlqK9T7jvi1nLOrVXC%2Bbl8oVhKCsgCo1nW1eC603udgpjsitRFfSCCtKgPv)
 [mysql](http://blog.codinglabs.org/articles/theory-of-mysql-index.html)
+[mysql](https://mp.weixin.qq.com/mp/homepage?__biz=MzIxNTQ3NDMzMw==&hid=1&sn=30e3ee8b9f6b3bb3b15ee8981b78903a&scene=1&devicetype=Windows+10&version=62080079&lang=zh_CN&nettype=WIFI&ascene=1&session_us=gh_433eb41427a3&pass_ticket=4j5eprlqK9T7jvi1nLOrVXC%2Bbl8oVhKCsgCo1nW1eC603udgpjsitRFfSCCtKgPv&wx_header=1&uin=MjYyMTk4OTk4NA%3D%3D&key=480a52c9d22af29438e588b2f25114517a288d29c713af2829257a8dac78583eb421d95a692f74dc5e835b3c61b74486ef0b2bb232f69061ab3965fc1f369411ba23cbe74a8899b07bc0048595b08777)
+[mysql](https://blog.ouyangsihai.cn/categories/MySQL%E7%9A%84%E8%89%BA%E6%9C%AF%E4%B8%96%E7%95%8C/)
