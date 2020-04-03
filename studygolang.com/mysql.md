@@ -1,6 +1,9 @@
 # mysql
 
 [分库分表](https://mp.weixin.qq.com/s?__biz=MzIwMDgzMjc3NA==&mid=2247483939&idx=1&sn=7abbf7865b705057ae56a1ba797f6d79&chksm=96f6604aa181e95c47f6d1534bf3695f567ddbc5f39749f9d4644266e4a7ce51fc4e779908fd&scene=21#wechat_redirect)
+[分库分表](https://www.cnblogs.com/butterfly100/p/9034281.html)
+[分库分表](https://mp.weixin.qq.com/s?__biz=MzI3NDA4OTk1OQ==&mid=2649901698&idx=1&sn=17a02530ca71cf545b344d6a3b88cc1e&chksm=f31fb80ac468311cc78e4da20218974ce2008452446116a6774be56fbffc3d9042abbb8663c9&mpshare=1&scene=23&srcid=0731cE3hPRSbzEf25KTWhD0J#rd)
+
 [mysql](https://mp.weixin.qq.com/s?__biz=MzI4Njg5MDA5NA==&mid=2247485433&idx=1&sn=bcee0eec2ebdfa465ba3322d13052c45&chksm=ebd746f8dca0cfeeb2025558475d1eb137eb7594aed18bc356582eb1df3171a898ae6b06e623&token=1043781454&lang=zh_CN&scene=21#wechat_redirect)
 [mysql](https://segmentfault.com/a/1190000019619667)
 [sql-slow](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247485185&idx=1&sn=66ef08b4ab6af5757792223a83fc0d45&chksm=cea248caf9d5c1dc72ec8a281ec16aa3ec3e8066dbb252e27362438a26c33fbe842b0e0adf47&token=79317275&lang=zh_CN#rd)
@@ -32,3 +35,8 @@
 [mysql](http://blog.codinglabs.org/articles/theory-of-mysql-index.html)
 [mysql](https://mp.weixin.qq.com/mp/homepage?__biz=MzIxNTQ3NDMzMw==&hid=1&sn=30e3ee8b9f6b3bb3b15ee8981b78903a&scene=1&devicetype=Windows+10&version=62080079&lang=zh_CN&nettype=WIFI&ascene=1&session_us=gh_433eb41427a3&pass_ticket=4j5eprlqK9T7jvi1nLOrVXC%2Bbl8oVhKCsgCo1nW1eC603udgpjsitRFfSCCtKgPv&wx_header=1&uin=MjYyMTk4OTk4NA%3D%3D&key=480a52c9d22af29438e588b2f25114517a288d29c713af2829257a8dac78583eb421d95a692f74dc5e835b3c61b74486ef0b2bb232f69061ab3965fc1f369411ba23cbe74a8899b07bc0048595b08777)
 [mysql](https://blog.ouyangsihai.cn/categories/MySQL%E7%9A%84%E8%89%BA%E6%9C%AF%E4%B8%96%E7%95%8C/)
+[binlog](https://www.cnblogs.com/Presley-lpc/p/9619571.html)
+[binlog](https://mp.weixin.qq.com/s/Lx4TNPLQzYaknR7D3gmOmQ)
+[redolog](https://www.jianshu.com/p/4bcfffb27ed5)
+[redolog](https://www.linuxidc.com/Linux/2018-01/150614.htm)
+[redolog](https://blog.csdn.net/wanbin6470398/article/details/81941586)

@@ -26,3 +26,8 @@ hongli.wwj@alibaba-inc.com
 [长亭](https://studygolang.com/topics/11159#reply0)
 
 <https://studygolang.com/articles/27560#reply0>
+
+[映客](https://mp.weixin.qq.com/s?__biz=MzIzMjA5OTc3OQ==&mid=2652941902&idx=1&sn=85137e28606a89c3b648dee790928fce&chksm=f34e14e2c4399df44a09f23421240e674faa53c9efa9cdebfe7b2e1e4e502b5500e02c2aa9fa&scene=126&sessionid=1585729482&key=f3de4429a3d2309849215f6f9931be4834b45e769258c7b2fb0a151e3ffd08c8ebb991755a01a94d6679aebc253aceef2602fbb7255369d26bd3e756012d78078ea11effe82eedf1c9d48f14584e4808&ascene=1&uin=MjYyMTk4OTk4NA%3D%3D&devicetype=Windows+10&version=62080079&lang=zh_CN&exportkey=AWnzRuL7aee9pG%2BG5dojSPk%3D&pass_ticket=9QMCzdbuzL%2BKTgqt43ChCnTzzHZ57sYBqR7An3b4Yl0CiUB4ueDr0sii2Lkv6aXe)
+
+[蘑菇街](https://github.com/AobingJava/JavaFamily)
+[work](https://github.com/CyC2018/CS-Notes)
