@@ -1,7 +1,7 @@
 // 2条命令都是在dev执行
-scp root@coin05:/root/liangjisheng/jaeger-1.17.1-linux-amd64.tar.gz .
+scp root@coin05:/root/liangjisheng/Apollo.tar.gz .
 
-scp jaeger-1.17.1-linux-amd64.tar.gz root@117.51.148.112:/usr/local
+scp Apollo.tar.gz root@117.51.148.112:/usr/local
 
 // docker镜像保存为文件及从文件导入镜像
 docker save -o jaeger.tar jaegertracing/all-in-one

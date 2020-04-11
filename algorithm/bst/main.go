@@ -35,4 +35,10 @@ func main() {
 
 	// bst.delete(60)
 	// bst.inOrder()
+
+	val, err := bst.getLastCommonNode(54, 63)
+	if err != nil {
+		return
+	}
+	fmt.Println("common node is:", val)
 }

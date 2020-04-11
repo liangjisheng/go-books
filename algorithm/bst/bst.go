@@ -1,6 +1,7 @@
 package main
 
 import (
+	"errors"
 	"fmt"
 
 	"github.com/liyue201/gostl/ds/stack"
@@ -243,3 +244,36 @@ func _postOrderNoRecursion(root *Node) {
 	}
 	fmt.Println()
 }
+
+func (bst *BinarySearchTree) getLastCommonNode(key1, key2 int) (int, error) {
+	node := _getLastCommonNode(bst.root, key1, key2)
+	if node == nil {
+		return -1, errors.New("there is no common node")
+	}
+	return node.key, nil
+}
+
+// 在二叉查找树种找2个节点的最低公共祖先
+func _getLastCommonNode(node *Node, key1, key2 int) *Node {
+	if node == nil || !_search(node, key1) || !_search(node, key2) {
+		return nil
+	}
+
+	for node != nil {
+		// 2个节点分别在node的左右子树上
+		if (node.key-key1)*(node.key-key2) <= 0 {
+			return node
+		}
+		if key1 < node.key {
+			// 2个节点同时在node的左子树上
+			node = node.left
+		} else {
+			// 2个节点同时在node的右子树上
+			node = node.right
+		}
+	}
+	return nil
+}
+
+// 如果这棵树是颗普通的二叉树,分别从根节点开始查找两个节点,将到达两个节点的路径存入链表,
+// 然后判断这两个链表中最后一个公共元素,即其最低公共祖先
