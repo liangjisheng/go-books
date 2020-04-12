@@ -8,6 +8,10 @@
 [简历](https://github.com/Snailclimb/JavaGuide)
 [修改简历](互联网侦察公众号后台回复修改简历)
 
+[简历模板](https://resume.mdnice.com/)
+[简历模板](https://github.com/mdnice/markdown-resume)
+[简历](https://mp.weixin.qq.com/s?__biz=MzUzNTAzNjUzMQ==&mid=2247484080&idx=1&sn=3686d1dd288e210f8ee3f83eb40bf2eb&chksm=fa8ad5accdfd5cba76f62f33895101598db395d6c7c98a1b6f6e0d7df2e6d600dcf08afcec74&mpshare=1&scene=1&srcid=&sharer_sharetime=1586666581193&sharer_shareid=8f5ebfc9d1ebfc3a5c0ac7a81253ecbe&key=2be5a50c0e9f27d566285160a29ef8785502bcfecdb4c34927e0df7cd174ce2aba9d7278761fc78986367b08849b891e807d656261790fb9d3678d4739215fc95d0b7063cd7ba8b453fe1f33d423f497&ascene=1&uin=MjYyMTk4OTk4NA%3D%3D&devicetype=Windows+10&version=62080079&lang=zh_CN&exportkey=ATZa%2BRedoQ%2BecEdo%2BAHaauA%3D&pass_ticket=vKMN1UeGmNN3XBgl1hxvZO4Eny4S8pKaGEm7gtfgsmecDvkrTTwRBmwk09ZCfnyf)
+
 ## review
 
 [index](https://mp.weixin.qq.com/s?__biz=MzI4Njg5MDA5NA==&mid=2247484480&idx=1&sn=757cdf8f07dc9ae9b79fb28b94ecf5d6&chksm=ebd74541dca0cc57f0b3fce8c5038c8512bccbf09e6c363f38a1e4f924d67ac2564b4fd03744&token=620000779&lang=zh_CN&scene=21#wechat_redirect)
