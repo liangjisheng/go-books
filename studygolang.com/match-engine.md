@@ -22,3 +22,6 @@
 
 [go](https://github.com/toorop/go-bittrex)
 [go](https://github.com/Akagi201/cryptotrader)
+
+[现货撮合交易和场外交易](https://github.com/SevenEX/bitrade-parent)
+[BTCETH钱包](https://github.com/SevenEX/wallet-rpc)

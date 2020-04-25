@@ -8,5 +8,6 @@ require (
 	github.com/liyue201/gostl v0.0.0-20200408084203-a8e548bf336f
 	github.com/rogpeppe/go-internal v1.5.2
 	golang.org/x/crypto v0.0.0-20200403201458-baeed622b8d8 // indirect
+	golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3
 	golang.org/x/time v0.0.0-20191024005414-555d28b269f0
 )

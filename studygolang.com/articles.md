@@ -4,6 +4,7 @@
 
 [go-http](https://studygolang.com/articles/24738)
 [channel](https://studygolang.com/articles/25216#reply0)
+[channel](https://mp.weixin.qq.com/s/40uxAPdubIk0lU321LmfRg)
 
 ## gin
 
@@ -87,3 +88,16 @@
 [iptables](https://www.cnblogs.com/zongfa/p/7967935.html)
 
 [linux-core](https://linux.cn/article-8290-1.html)
+
+## DB
+
+[redis-sentinel](https://mp.weixin.qq.com/s/lD7Sy-syw2ufve5yZCbcoA)
+[redis-source](https://segmentfault.com/a/1190000019790316)
+
+## consensus
+
+[raft](http://thesecretlivesofdata.com/raft/)
+
+## linux
+
+[linux](https://blog.csdn.net/dengjin20104042056/article/details/94669639)

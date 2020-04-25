@@ -11,6 +11,7 @@
 [简历模板](https://resume.mdnice.com/)
 [简历模板](https://github.com/mdnice/markdown-resume)
 [简历](https://mp.weixin.qq.com/s?__biz=MzUzNTAzNjUzMQ==&mid=2247484080&idx=1&sn=3686d1dd288e210f8ee3f83eb40bf2eb&chksm=fa8ad5accdfd5cba76f62f33895101598db395d6c7c98a1b6f6e0d7df2e6d600dcf08afcec74&mpshare=1&scene=1&srcid=&sharer_sharetime=1586666581193&sharer_shareid=8f5ebfc9d1ebfc3a5c0ac7a81253ecbe&key=2be5a50c0e9f27d566285160a29ef8785502bcfecdb4c34927e0df7cd174ce2aba9d7278761fc78986367b08849b891e807d656261790fb9d3678d4739215fc95d0b7063cd7ba8b453fe1f33d423f497&ascene=1&uin=MjYyMTk4OTk4NA%3D%3D&devicetype=Windows+10&version=62080079&lang=zh_CN&exportkey=ATZa%2BRedoQ%2BecEdo%2BAHaauA%3D&pass_ticket=vKMN1UeGmNN3XBgl1hxvZO4Eny4S8pKaGEm7gtfgsmecDvkrTTwRBmwk09ZCfnyf)
+[简历](https://mp.weixin.qq.com/s?__biz=MzI0MzIyMDM5Ng==&mid=2649826770&idx=1&sn=9bc326d8457cc33e3ddbe799f1391048&chksm=f175ef11c6026607a7f3b579e242758c04cb4c9e59e76da6d32c590dc2cfb24aa5790cf7ce19&mpshare=1&scene=1&srcid=&sharer_sharetime=1586867725719&sharer_shareid=a05c3fce97ade02888e2f7a13089e8d3&key=cdf90f9bd9e67c9bcaadb3f70ed957043ced7720f44c9bb9f0c7cc5238364c5a41ccafcb521a99e655cc87c0f2179e4b680d7d734f1a98cdd1d6135dfee2bb0d75772255e82cc857053d25df3be2bf53&ascene=1&uin=MjYyMTk4OTk4NA%3D%3D&devicetype=Windows+10&version=62080079&lang=zh_CN&exportkey=AQ5vUhv65f5Fik4e7jNdIOo%3D&pass_ticket=NJ8T%2FsBL6U2MskC8ZfV974hvbZxTwAHfKzviBWQocavpGnrQSbPtpve0KSe5uiQv)
 
 ## review
 

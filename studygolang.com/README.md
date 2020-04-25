@@ -1,12 +1,14 @@
 # studygolang.com articles
 
-[go-kit](https://www.hwholiday.com/2020/go_kit_11/)
-[linux](https://blog.csdn.net/dengjin20104042056/article/details/94669639)
-[go-doc](https://github.com/developer-learning/learning-golang)
-[7天用Go从零实现分布式缓存GeeCache](https://geektutu.com/post/geecache.html)
-[go-micor](https://note.mogutou.xyz/category/go-micro)
+go 调用.a文件
+
+[7天用Go实现GeeCache](https://geektutu.com/post/geecache.html)
 [go-web](https://studygolang.com/articles/21656)
+[go-micor](https://note.mogutou.xyz/category/go-micro)
+[go-grpc](https://github.com/Bingjian-Zhu/go-grpc-example)
 [go-web](https://xueyuanjun.com/books/go-web-programming)
-[go踩坑](https://segmentfault.com/u/nosay)
+[go-jianshu](https://unrotten.org/)
+[7天用Go从零实现ORM](https://geektutu.com/post/geeorm.html)
 [百度网盘-提取密码-2tyh](https://pan.baidu.com/s/1XaHlYc6MQzeduvjRvdT12g)
-[mysql](https://segmentfault.com/a/1190000022074101)
+[k8s](https://mp.weixin.qq.com/s/VcEd6iwvw5g86paisKt52w)
+[qrpc](https://github.com/zhiqiangxu/qrpc)

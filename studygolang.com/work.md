@@ -34,6 +34,14 @@ hongli.wwj@alibaba-inc.com
 
 简历请投递 guanqi.zgq@alibaba-inc.com 区块链技术、算法都可以
 
-青云QingCloud
+[青云QingCloud](https://www.qingcloud.com/)
+[循环智能](https://studygolang.com/topics/11271#reply0)
+
+头条内推邮箱: dongshujin@bytedance.com
+bestkidou@gmail.com
 
 <https://studygolang.com/topics/11216#reply1>
+<https://studygolang.com/articles/28024#reply0>
+[头条社招内推](https://job.bytedance.com/referral/pc/position?token=MzsxNTgzOTkwNjYyOTIyOzY3OTk0MDk2ODE5ODg0MDQ3NDQ7MA)
+[byteDance](https://www.nowcoder.com/discuss/405556)
+[小米](https://studygolang.com/topics/11315#reply0)
