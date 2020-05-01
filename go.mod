@@ -6,6 +6,7 @@ require (
 	github.com/UncleBig/goCache v0.0.0-20161110020818-f1cc4a855d82
 	github.com/dynport/gossh v0.0.0-20170809141523-122e3ee2a6b0
 	github.com/liyue201/gostl v0.0.0-20200408084203-a8e548bf336f
+	github.com/rakyll/statik v0.1.7
 	github.com/rogpeppe/go-internal v1.5.2
 	golang.org/x/crypto v0.0.0-20200403201458-baeed622b8d8 // indirect
 	golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3
