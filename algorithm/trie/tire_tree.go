@@ -1,9 +1,5 @@
 package tree
 
-import "fmt"
-
-// https://www.hwholiday.com/2019/trie_tree/
-
 // Trie ...
 type Trie struct {
 	node   map[rune]*Trie
@@ -51,12 +47,13 @@ func (t *Trie) StartsWith(prefix string) bool {
 	return true
 }
 
-// SearchNode 查找数据
+// SearchNode 查找以key开始的所有数据
 func (t *Trie) SearchNode(key string) (res []interface{}) {
 	root := t
 	for _, v := range key {
 		if v, ok := root.node[v]; ok {
-			root.node = v.node
+			// root.node = v.node
+			root = v
 		} else {
 			return
 		}
@@ -75,6 +72,6 @@ func (t *Trie) SearchNode(key string) (res []interface{}) {
 		}
 		queue = childQueue
 	}
-	fmt.Println(len(res))
+	// fmt.Println(len(res))
 	return
 }
