@@ -1,0 +1,14 @@
+{
+    "debug": true,
+    "server": {
+      "address": "127.0.0.1:9090"
+    },
+    "database": {
+        "host": "117.51.148.112",
+        "port": "3306",
+        "user": "root",
+        "pass": "ljs199711",
+        "name": "article"
+    }  
+}
+  
