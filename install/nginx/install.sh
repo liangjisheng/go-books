@@ -11,6 +11,9 @@ sudo apt install nginx
 
 # 查看 nginx 运行状态 监听80端口
 sudo systemctl status nginx
+sudo systemctl stop nginx
+sudo systemctl start nginx
+sudo systemctl restart nginx
 
 # 打开防火墙
 sudo ufw allow 'Nginx Full'
