@@ -14,11 +14,11 @@ import (
 
 func main() {
 	// demo1()
-	// demo2()
+	demo2()
 	// jsonOutput()
 	// thirdFormat()
 	// hook()
-	redisHook()
+	// redisHook()
 }
 
 func demo1() {
