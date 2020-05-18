@@ -1,4 +1,4 @@
-package zaplog
+package logger
 
 import (
 	"os"
@@ -10,6 +10,41 @@ import (
 	"go.uber.org/zap/zapcore"
 	"gopkg.in/natefinch/lumberjack.v2"
 )
+
+var defaultLogger *zap.Logger
+
+func init() {
+	appName := "trade"
+	date := time.Now().Format("2006-01-02")
+	// defaultLogger = NewLogger(SetAppName(appName), SetDevelopment(true),
+	// 	SetLevel(zap.DebugLevel), SetDebugFileName(date+"-debug.log"),
+	// 	SetInfoFileName(date+"-info.log"), SetWarnFileName(date+"-warn.log"),
+	// 	SetErrorFileName(date+"-error.log"))
+	defaultLogger = NewLogger(SetAppName(appName), SetDevelopment(true),
+		SetLevel(zap.DebugLevel), SetDebugFileName(date+".log"),
+		SetInfoFileName(date+".log"), SetWarnFileName(date+".log"),
+		SetErrorFileName(date+".log"))
+}
+
+// Debug ...
+func Debug(msg string, fields ...zap.Field) {
+	defaultLogger.Debug(msg, fields...)
+}
+
+// Info ...
+func Info(msg string, fields ...zap.Field) {
+	defaultLogger.Info(msg, fields...)
+}
+
+// Warn ...
+func Warn(msg string, fields ...zap.Field) {
+	defaultLogger.Warn(msg, fields...)
+}
+
+// Error ...
+func Error(msg string, fields ...zap.Field) {
+	defaultLogger.Error(msg, fields...)
+}
 
 // Options ...
 type Options struct {
