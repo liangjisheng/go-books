@@ -11,6 +11,8 @@
 [go](https://github.com/robaho/go-trader)
 [go](https://github.com/freebsdly/fcoinExchange)
 
+[java-exchange](https://gitee.com/cexchange/CoinExchange)
+
 [blog](https://keeganlee.me/)
 [match](https://cloud.tencent.com/developer/article/1470996)
 [match](https://github.com/ezpod/crypto-exchange-engine)

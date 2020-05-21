@@ -1,6 +1,33 @@
 # good articles
 
-[algorithm](https://mp.weixin.qq.com/s/sJ4ksVBsGIZOelVCpZyQaw)
+## 目录
+
+- [blockchain](#blockchain)
+- [GO](#GO)
+- [GIN](#gin)
+- [schedule](#schedule)
+- [GC](GC)
+- [log collect](#log-collect)
+- [IO](#IO)
+- [nginx](#nginx)
+- [MQ](#MQ)
+- [iptables](#iptables)
+- [DB](#DB)
+- [consensus](#consensus)
+- [linux](#linux)
+- [architect](#architect)
+- [network](#network)
+- [scaffold](#scaffold)
+- [cache](#cache)
+- [design pattern](#design-pattern)
+- [web](#web)
+- [cloud](#cloud)
+
+## blockchain
+
+[blockchain](https://gitee.com/jonluo/projects)
+
+## GO
 
 [go-http](https://studygolang.com/articles/24738)
 [channel](https://studygolang.com/articles/25216#reply0)
@@ -38,6 +65,7 @@
 [GC](https://juejin.im/post/5cf0ffa7f265da1ba56b052a)
 [GC](https://juejin.im/post/5d398417f265da1b904c26b6)
 [GC](http://legendtkl.com/2017/04/28/golang-gc/)
+[GC](https://mp.weixin.qq.com/s/jICwyKDv8V6bPCqwg8Hzag)
 
 ## log collect
 
@@ -87,8 +115,6 @@
 [iptables](https://www.cnblogs.com/z-sm/p/9754801.html)
 [iptables](https://www.cnblogs.com/zongfa/p/7967935.html)
 
-[linux-core](https://linux.cn/article-8290-1.html)
-
 ## DB
 
 [redis-sentinel](https://mp.weixin.qq.com/s/lD7Sy-syw2ufve5yZCbcoA)
@@ -97,7 +123,48 @@
 ## consensus
 
 [raft](http://thesecretlivesofdata.com/raft/)
+[raft](https://juejin.im/post/5eaf83a5f265da7bf16911e5)
 
 ## linux
 
 [linux](https://blog.csdn.net/dengjin20104042056/article/details/94669639)
+[linux-core](https://linux.cn/article-8290-1.html)
+
+## architect
+
+[architect-tencent](https://mp.weixin.qq.com/s?__biz=MjM5MjAwODM4MA==&mid=2650743434&idx=1&sn=22a69e7498a10ca68de558262e8e50f2&chksm=bea7535989d0da4f40bbb81b0a0eabce4ef09d44d014f352f836d879cf7541dbdf0841c8e2d1&mpshare=1&scene=1&srcid=&sharer_sharetime=1587800534918&sharer_shareid=be082b9b55860bca135c279cbeb97d77&key=5134b9fdf48fcb9896c6607ab727abf8f8f68a383235772a50aec98281a5fca9fc765e69962745ec1e8e9ba3edec488f8011c7097da36463e77243166ef43bc83c299d7658c4dc3f2e7442d9ceef5734&ascene=1&uin=MjYyMTk4OTk4NA%3D%3D&devicetype=Windows+10&version=62080079&lang=zh_CN&exportkey=AXom%2FmdhE4si5oODxCO%2F4XE%3D&pass_ticket=hRK18tJs7F7HalyYBbrP4Wr2mAmsSzMyvX%2FsyODQyqx0cOzBlIE7yu%2BjRPui1FaT)
+[architect](https://mp.weixin.qq.com/s?__biz=MzIxMzEzMjM5NQ==&mid=2651033141&idx=1&sn=f9c9e15bbde8f8ef92cf18c7297d7900&chksm=8c4c5b31bb3bd227702a5ef5d440955c50b9c5ddd172975373c1f6700757eaccbe94dd7e3b90&mpshare=1&scene=1&srcid=0508iifNYvMegOfTs6VVTllE&sharer_sharetime=1588911456108&sharer_shareid=360cd9f7e5295df142466053d82eb368&key=d2a438ea9c9606b3af21504ec7320ec854641d6f8dd212ff778beaebe4a1472903cc4fd57ccd4a1b8dbe875c2483c634a3133119df63429bd1876f267e17944a370c5545b9326e99ac4ca126479fa281&ascene=1&uin=MjYyMTk4OTk4NA%3D%3D&devicetype=Windows+10&version=62080079&lang=zh_CN&exportkey=AcdLCrttBVmxhOaVCCrXLP0%3D&pass_ticket=ns5bt1qdZHOXg1q0MAyzLDh7BH6uAaFT5vdsxTwnIMvPilJNcwBlbGAQv0NThkV1)
+[system-design-primer](https://github.com/donnemartin/system-design-primer/blob/master/README-zh-Hans.md)
+[DDD](https://www.jianshu.com/p/a775836c7e25)
+[micro-server](https://www.zhihu.com/question/65502802/answer/802678798)
+
+## network
+
+[TCP](https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247483989&idx=1&sn=7e2ed852770743d3955ef9d5561fcef3&scene=21#wechat_redirect)
+[TCP](https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247484017&idx=1&sn=dc54d43bfd5dc088e48adcfa2e2bc13f&chksm=f98e46dbcef9cfcdab645e79138deb078d68ad843b3e424408974bd8f0ecea620a2502a79230&mpshare=1&scene=1&srcid=&sharer_sharetime=1587302554810&sharer_shareid=be082b9b55860bca135c279cbeb97d77&key=5134b9fdf48fcb9885dd7fdd41494f2eed968d7521954bf6659c9c03a7abc0935e0064f058bc04de81b557fa2295c931b597feffd4b2d900b19139dfc7c676081a4970b5d009196e897972388d72f697&ascene=1&uin=MjYyMTk4OTk4NA==&devicetype=Windows+10&version=62080079&lang=zh_CN&exportkey=AXyuJKQaP0C1jd51f5XwMuE=&pass_ticket=hRK18tJs7F7HalyYBbrP4Wr2mAmsSzMyvX/syODQyqx0cOzBlIE7yu+jRPui1FaT)
+
+## scaffold
+
+[gin_scaffold](https://github.com/vcycyv/go_scaffold_gin_gorm)
+[gin_scaffold](https://github.com/e421083458/gin_scaffold)
+
+## cache
+
+[go-cache](https://github.com/patrickmn/go-cache)
+
+## design pattern
+
+[代码模板](http://tigerb.cn/2020/03/30/go-patterns/template/)
+[链式调用](http://tigerb.cn/2020/04/02/go-patterns/responsbility/)
+[代码组件](http://tigerb.cn/2020/04/06/go-patterns/component/)
+[订阅通知](http://tigerb.cn/2020/04/11/go-patterns/observer/)
+
+## web
+
+[web-graphql](https://unrotten.org/)
+[web-graphql](https://github.com/shyptr/jianshu)
+[百度网盘-提取密码-2tyh-秒杀](https://pan.baidu.com/s/1XaHlYc6MQzeduvjRvdT12g)
+
+## cloud
+
+[k8s](https://mp.weixin.qq.com/s/VcEd6iwvw5g86paisKt52w)

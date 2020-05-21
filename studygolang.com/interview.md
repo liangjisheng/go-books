@@ -1,19 +1,145 @@
 # interview
 
-## 简历
+## Go相关
 
-[简历](https://github.com/geekcompany/ResumeSample/blob/master/java.md)
-[简历](https://mp.weixin.qq.com/s?__biz=MzIzODIzNzE0NQ==&mid=2654418827&idx=1&sn=33e1bfb39e8cafa66d094389170654c2&chksm=f2fff33dc5887a2b9c028aaa6b4c78a0b8c02e6b4763e08ee465c807b2de9354e3a849ab395e&mpshare=1&scene=1&srcid=&sharer_sharetime=1585198056644&sharer_shareid=e97c9100da56aa4014f248b28427547f&key=480a52c9d22af294b4f5c7049011ee138ad346e044a20dd4340e089eedaf19c301af8baa3763a146d1fd37f3a7da5905dfafe30b2753855ceb4a160f1f3e577718e041f4c385c27be2e9a3291991cbd8&ascene=1&uin=MjYyMTk4OTk4NA%3D%3D&devicetype=Windows+10&version=62080079&lang=zh_CN&exportkey=AThPQbsQKLbnxBvtQrdyWQQ%3D&pass_ticket=4j5eprlqK9T7jvi1nLOrVXC%2Bbl8oVhKCsgCo1nW1eC603udgpjsitRFfSCCtKgPv)
-[简历](https://mp.weixin.qq.com/s?__biz=MzA3MDU2MjM4Ng==&mid=2247484767&idx=1&sn=2249317ed5eaf7d12e511f87ffac8035&chksm=9f3ba262a84c2b74cf4a7d8030703cb0c02abb96e02a639bad4c25caa8a5ce4b73310f08f019&mpshare=1&scene=1&srcid=&sharer_sharetime=1585672022632&sharer_shareid=be082b9b55860bca135c279cbeb97d77&key=988d6e79394f42a0a97bda4fab05e2573d53761f2513599e5d73583048a6df85e41d614a56c4fe7558dc700e45139fec1f78247f53c15579d29cf0385f29b884bdfdad8227bed1f4d987e0f59e65cb10&ascene=1&uin=MjYyMTk4OTk4NA%3D%3D&devicetype=Windows+10&version=62080079&lang=zh_CN&exportkey=AY3zQj0%2B7oj9mvCAMUJOo4s%3D&pass_ticket=tpQgHpcQZ0ARnPSSifiCctsLyyqemnvVzOeUeFTGEbPOOlSFQG56ZnjVr0CIxlfm)
-[简历](https://github.com/Snailclimb/JavaGuide)
-[修改简历](互联网侦察公众号后台回复修改简历)
+* map、channel、slice的底层实现
+* sync.map、sync.pool、sync.Once的原理
+* GC的过程、写屏障的含义及作用
+* GMP模型，触发Goroutine切换的原因有哪些？for死循环会怎么样？全局goroutine里面存储什么？
+* interface的底层实现，怎么判空？
+* reflect的使用
+* 逃逸分析
+* context的使用
+* go 性能问题的定位过程（pprof的使用）
+* 协程池的使用
 
-[简历模板](https://resume.mdnice.com/)
-[简历模板](https://github.com/mdnice/markdown-resume)
-[简历](https://mp.weixin.qq.com/s?__biz=MzUzNTAzNjUzMQ==&mid=2247484080&idx=1&sn=3686d1dd288e210f8ee3f83eb40bf2eb&chksm=fa8ad5accdfd5cba76f62f33895101598db395d6c7c98a1b6f6e0d7df2e6d600dcf08afcec74&mpshare=1&scene=1&srcid=&sharer_sharetime=1586666581193&sharer_shareid=8f5ebfc9d1ebfc3a5c0ac7a81253ecbe&key=2be5a50c0e9f27d566285160a29ef8785502bcfecdb4c34927e0df7cd174ce2aba9d7278761fc78986367b08849b891e807d656261790fb9d3678d4739215fc95d0b7063cd7ba8b453fe1f33d423f497&ascene=1&uin=MjYyMTk4OTk4NA%3D%3D&devicetype=Windows+10&version=62080079&lang=zh_CN&exportkey=ATZa%2BRedoQ%2BecEdo%2BAHaauA%3D&pass_ticket=vKMN1UeGmNN3XBgl1hxvZO4Eny4S8pKaGEm7gtfgsmecDvkrTTwRBmwk09ZCfnyf)
-[简历](https://mp.weixin.qq.com/s?__biz=MzI0MzIyMDM5Ng==&mid=2649826770&idx=1&sn=9bc326d8457cc33e3ddbe799f1391048&chksm=f175ef11c6026607a7f3b579e242758c04cb4c9e59e76da6d32c590dc2cfb24aa5790cf7ce19&mpshare=1&scene=1&srcid=&sharer_sharetime=1586867725719&sharer_shareid=a05c3fce97ade02888e2f7a13089e8d3&key=cdf90f9bd9e67c9bcaadb3f70ed957043ced7720f44c9bb9f0c7cc5238364c5a41ccafcb521a99e655cc87c0f2179e4b680d7d734f1a98cdd1d6135dfee2bb0d75772255e82cc857053d25df3be2bf53&ascene=1&uin=MjYyMTk4OTk4NA%3D%3D&devicetype=Windows+10&version=62080079&lang=zh_CN&exportkey=AQ5vUhv65f5Fik4e7jNdIOo%3D&pass_ticket=NJ8T%2FsBL6U2MskC8ZfV974hvbZxTwAHfKzviBWQocavpGnrQSbPtpve0KSe5uiQv)
+## Mysql相关
 
-## review
+* 索引的分类
+* 为什么选择B+树实现索引？一般深度为多少？b+树和红黑树的区别?
+* 聚簇索引和非聚簇索引的区别
+* 创建索引后，查询读取I/O的次数
+* 索引的最左前缀原则
+* mysql数据的索引优化以及失效
+* 从学生表中查询每个班的分数的前3名
+* mysql的隔离级别？处理什么问题的（脏读、幻读、不可重复读）
+* mysql的主从复制过程？
+* mysql的大表优化方式
+
+## Redis相关
+
+* redis的数据类型以及日常的应用
+* redis的发布/订阅的原理
+* zset的底层实现
+* 数据缓存过期策略
+* redis的部署模式
+* redis为什么速度比较快
+* reids的大key、热key的处理
+* 如何实现分布式锁的
+* 持久化策略及其对比
+* 缓存雪崩、缓存击穿、缓存穿透
+
+## Etcd相关
+
+* etcd是什么？有什么优势
+* raft选主逻辑
+* 日志复制
+* 脑裂问题
+* etcd的watch机制
+* etcd如何实现配置下发和服务发现
+* etcd对于偶数机器的集群的选主处理
+* 选主实现逻辑
+
+## Prometheus相关
+
+* 简介
+* 数据存储原理
+* 数据类型
+
+## Grpc相关
+
+* 相较于restful的优势
+* 数据交互方式
+* 限流（通过流模式传输时，发送方数据量过大，会发生什么？）
+* protobuf和json的对比
+* grpc负载均衡的实现
+
+## Linux相关
+
+* awk
+* poll、epoll、select
+* I/O模型
+
+## 网络协议相关
+
+* http2的优势
+* https的建连过程（7次握手）
+* icmp协议的原理
+* tcp三次握手、四次挥手
+* tcp 拥塞策略
+* tcp的time_wait状态和colse_wait状态
+* 如何解决tcp的粘包问题
+* quic协议是什么
+* 如何理解网络模型
+* http的状态码含义
+
+## 智力题
+
+* 25匹马，每次只能比赛5组，最快几次找到前3名
+
+* 宝石问题（3个盒子，其中2个宝石，一个石头；先随机选取一个，然后剔除剩余两个中的宝石；第三次选择，选择哪个为宝石的概率大？）
+
+## 系统设计
+
+* RPC的设计
+* 架构设计分单系统，每秒3000订单有效期15分钟，50W司机进行抢单操作，如果一直没有抢单，则订单失效
+* 字符串hash算法的实现
+* 敏感词过滤
+* 设计一个高可用的稳定的并发模型处理HTTP请求
+
+## 其他
+
+* 一致性hash算法
+* 微服务概述
+* 什么是死锁，如何避免
+* 限流策略
+
+## 算法
+
+* 如何原地交换两个数
+* 岛屿问题
+* 数组中重复的数据  
+* 1到n乱序排列的数据，少了其中一个，找出这个数
+* 二叉树的右视图
+* LRU缓存机制  （考虑并发访问）
+* 高并发的生产者消费者模式
+* 通过中序遍历序列和先序序列恢复二叉树
+* 爬楼梯问题
+* 单链表逆序
+* 单向链表排序
+* string1 = 1234dsafaserewr，string2 = 23aefasdfwer，求string3 = string1 + string2
+* 二叉树节点的公共祖先
+* 二叉树的最大深度
+* 二叉树的中序遍历和层次遍历
+* 寻找两个升序数组的第K大值
+* 最长回文子串长度
+* 最短回文串
+* 合并两个有序链表  
+* 全排列
+* 接雨水
+* 盛最多水的容器  
+* Pow(x, n)  
+
+## 海量数据处理问题（面试官很喜欢问）
+
+* hash
+* 字典树
+* bitmap
+* 布隆过滤器
+* MapReduce
+* 桶
+
+## article
 
 [index](https://mp.weixin.qq.com/s?__biz=MzI4Njg5MDA5NA==&mid=2247484480&idx=1&sn=757cdf8f07dc9ae9b79fb28b94ecf5d6&chksm=ebd74541dca0cc57f0b3fce8c5038c8512bccbf09e6c363f38a1e4f924d67ac2564b4fd03744&token=620000779&lang=zh_CN&scene=21#wechat_redirect)
 [index](https://mp.weixin.qq.com/s?__biz=Mzg2NzA4MTkxNQ==&mid=2247486101&idx=1&sn=980f6dfb7643a9ff4f5a661d4a496046&chksm=ce404141f937c85750232523583435e97f3965a3761fa327e5d79e2b720dfced1a1dfc731d3b&token=1321503479&lang=zh_CN#rd)

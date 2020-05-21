@@ -8,4 +8,3 @@ docker save -o jaeger.tar jaegertracing/all-in-one
 
 docker load < jeager.tar
 docker load --input jeager.tar
-
