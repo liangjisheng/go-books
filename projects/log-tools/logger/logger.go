@@ -30,7 +30,7 @@ func init() {
 	}
 
 	// 设置一些基本日志格式 具体含义还比较好理解 直接看zap源码也不难懂
-	textEncoder := zapcore.NewConsoleEncoder(cfg)
+	// textEncoder := zapcore.NewConsoleEncoder(cfg)
 	jsonEncoder := zapcore.NewJSONEncoder(cfg)
 
 	// 实现两个判断日志等级的 interface
@@ -47,27 +47,10 @@ func init() {
 		return lvl == zapcore.ErrorLevel
 	})
 
-	// 获取 info、error日志文件的io.Writer 抽象 getWriter() 在下方实现
-	textDebugWriter := getWriter("./logs/trade-text-debug.log")
-	textInfoWriter := getWriter("./logs/trade-text-info.log")
-	textWarnWriter := getWriter("./logs/trade-text-warn.log")
-	textErrorWriter := getWriter("./logs/trade-text-error.log")
-
-	jsonDebugWriter := getWriter("./logs/trade-json-debug.log")
-	jsonInfoWriter := getWriter("./logs/trade-json-info.log")
-	jsonWarnWriter := getWriter("./logs/trade-json-warn.log")
-	jsonErrorWriter := getWriter("./logs/trade-json-error.log")
-
-	// 最后创建具体的 Logger
-	textCore := zapcore.NewTee(
-		zapcore.NewCore(textEncoder, zapcore.AddSync(textDebugWriter), debugLevle),
-		zapcore.NewCore(textEncoder, zapcore.AddSync(textInfoWriter), infoLevel),
-		zapcore.NewCore(textEncoder, zapcore.AddSync(textWarnWriter), warnLevel),
-		zapcore.NewCore(textEncoder, zapcore.AddSync(textErrorWriter), errorLevel),
-	)
-
-	testLog := zap.New(textCore, zap.AddCaller()) // 需要传入 zap.AddCaller() 才会显示打日志点的文件名和行数, 有点小坑
-	textLogger = testLog.Sugar()
+	jsonDebugWriter := getWriter("./logs/trade-debug.log")
+	jsonInfoWriter := getWriter("./logs/trade-info.log")
+	jsonWarnWriter := getWriter("./logs/trade-warn.log")
+	jsonErrorWriter := getWriter("./logs/trade-error.log")
 
 	jsonCore := zapcore.NewTee(
 		zapcore.NewCore(jsonEncoder, zapcore.AddSync(jsonDebugWriter), debugLevle),
@@ -78,6 +61,23 @@ func init() {
 
 	jsonLog := zap.New(jsonCore, zap.AddCaller()) // 需要传入 zap.AddCaller() 才会显示打日志点的文件名和行数, 有点小坑
 	jsonLogger = jsonLog.Sugar()
+
+	// 获取 info、error日志文件的io.Writer 抽象 getWriter() 在下方实现
+	// textDebugWriter := getWriter("./logs/trade-text-debug.log")
+	// textInfoWriter := getWriter("./logs/trade-text-info.log")
+	// textWarnWriter := getWriter("./logs/trade-text-warn.log")
+	// textErrorWriter := getWriter("./logs/trade-text-error.log")
+
+	// 最后创建具体的 Logger
+	// textCore := zapcore.NewTee(
+	// 	zapcore.NewCore(textEncoder, zapcore.AddSync(textDebugWriter), debugLevle),
+	// 	zapcore.NewCore(textEncoder, zapcore.AddSync(textInfoWriter), infoLevel),
+	// 	zapcore.NewCore(textEncoder, zapcore.AddSync(textWarnWriter), warnLevel),
+	// 	zapcore.NewCore(textEncoder, zapcore.AddSync(textErrorWriter), errorLevel),
+	// )
+
+	// testLog := zap.New(textCore, zap.AddCaller()) // 需要传入 zap.AddCaller() 才会显示打日志点的文件名和行数, 有点小坑
+	// textLogger = testLog.Sugar()
 }
 
 func getWriter(filename string) io.Writer {
@@ -100,140 +100,140 @@ func getWriter(filename string) io.Writer {
 
 // Debug ....
 func Debug(args ...interface{}) {
-	textLogger.Debug(args...)
+	jsonLogger.Debug(args...)
 }
 
 // Debugf ...
 func Debugf(template string, args ...interface{}) {
-	textLogger.Debugf(template, args...)
+	jsonLogger.Debugf(template, args...)
 }
 
 // Info ...
 func Info(args ...interface{}) {
-	textLogger.Info(args...)
+	jsonLogger.Info(args...)
 }
 
 // Infof ...
 func Infof(template string, args ...interface{}) {
-	textLogger.Infof(template, args...)
+	jsonLogger.Infof(template, args...)
 }
 
 // Warn ...
 func Warn(args ...interface{}) {
-	textLogger.Warn(args...)
+	jsonLogger.Warn(args...)
 }
 
 // Warnf ...
 func Warnf(template string, args ...interface{}) {
-	textLogger.Warnf(template, args...)
+	jsonLogger.Warnf(template, args...)
 }
 
 // Error ...
 func Error(args ...interface{}) {
-	textLogger.Error(args...)
+	jsonLogger.Error(args...)
 }
 
 // Errorf ...
 func Errorf(template string, args ...interface{}) {
-	textLogger.Errorf(template, args...)
+	jsonLogger.Errorf(template, args...)
 }
 
 // DPanic ...
 func DPanic(args ...interface{}) {
-	textLogger.DPanic(args...)
+	jsonLogger.DPanic(args...)
 }
 
 // DPanicf ...
 func DPanicf(template string, args ...interface{}) {
-	textLogger.DPanicf(template, args...)
+	jsonLogger.DPanicf(template, args...)
 }
 
 // Panic ...
 func Panic(args ...interface{}) {
-	textLogger.Panic(args...)
+	jsonLogger.Panic(args...)
 }
 
 // Panicf ...
 func Panicf(template string, args ...interface{}) {
-	textLogger.Panicf(template, args...)
+	jsonLogger.Panicf(template, args...)
 }
 
 // Fatal ...
 func Fatal(args ...interface{}) {
-	textLogger.Fatal(args...)
+	jsonLogger.Fatal(args...)
 }
 
 // Fatalf ...
 func Fatalf(template string, args ...interface{}) {
-	textLogger.Fatalf(template, args...)
-}
-
-// JDebug ....
-func JDebug(args ...interface{}) {
-	jsonLogger.Debug(args...)
-}
-
-// JDebugf ...
-func JDebugf(template string, args ...interface{}) {
-	jsonLogger.Debugf(template, args...)
-}
-
-// JInfo ...
-func JInfo(args ...interface{}) {
-	jsonLogger.Info(args...)
-}
-
-// JInfof ...
-func JInfof(template string, args ...interface{}) {
-	jsonLogger.Infof(template, args...)
-}
-
-// JWarn ...
-func JWarn(args ...interface{}) {
-	jsonLogger.Warn(args...)
-}
-
-// JWarnf ...
-func JWarnf(template string, args ...interface{}) {
-	jsonLogger.Warnf(template, args...)
-}
-
-// JError ...
-func JError(args ...interface{}) {
-	jsonLogger.Error(args...)
-}
-
-// JErrorf ...
-func JErrorf(template string, args ...interface{}) {
-	jsonLogger.Errorf(template, args...)
-}
-
-// JDPanic ...
-func JDPanic(args ...interface{}) {
-	jsonLogger.DPanic(args...)
-}
-
-// JDPanicf ...
-func JDPanicf(template string, args ...interface{}) {
-	jsonLogger.DPanicf(template, args...)
-}
-
-// JPanic ...
-func JPanic(args ...interface{}) {
-	jsonLogger.Panic(args...)
-}
-
-// JPanicf ...
-func JPanicf(template string, args ...interface{}) {
-	jsonLogger.Panicf(template, args...)
-}
-
-// JFatal ...
-func JFatal(args ...interface{}) {
-	jsonLogger.Fatal(args...)
-}
-
-// JFatalf ...
-func JFatalf(template string, args ...interface{}) {
 	jsonLogger.Fatalf(template, args...)
+}
+
+// CDebug ....
+func CDebug(args ...interface{}) {
+	textLogger.Debug(args...)
+}
+
+// CDebugf ...
+func CDebugf(template string, args ...interface{}) {
+	textLogger.Debugf(template, args...)
+}
+
+// CInfo ...
+func CInfo(args ...interface{}) {
+	textLogger.Info(args...)
+}
+
+// CInfof ...
+func CInfof(template string, args ...interface{}) {
+	textLogger.Infof(template, args...)
+}
+
+// CWarn ...
+func CWarn(args ...interface{}) {
+	textLogger.Warn(args...)
+}
+
+// CWarnf ...
+func CWarnf(template string, args ...interface{}) {
+	textLogger.Warnf(template, args...)
+}
+
+// CError ...
+func CError(args ...interface{}) {
+	textLogger.Error(args...)
+}
+
+// CErrorf ...
+func CErrorf(template string, args ...interface{}) {
+	textLogger.Errorf(template, args...)
+}
+
+// CDPanic ...
+func CDPanic(args ...interface{}) {
+	textLogger.DPanic(args...)
+}
+
+// CDPanicf ...
+func CDPanicf(template string, args ...interface{}) {
+	textLogger.DPanicf(template, args...)
+}
+
+// CPanic ...
+func CPanic(args ...interface{}) {
+	textLogger.Panic(args...)
+}
+
+// CPanicf ...
+func CPanicf(template string, args ...interface{}) {
+	textLogger.Panicf(template, args...)
+}
+
+// CFatal ...
+func CFatal(args ...interface{}) {
+	textLogger.Fatal(args...)
+}
+
+// CFatalf ...
+func CFatalf(template string, args ...interface{}) {
+	textLogger.Fatalf(template, args...)
 }

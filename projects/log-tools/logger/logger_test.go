@@ -13,12 +13,13 @@ func TestLog(t *testing.T) {
 		logger.Debug("debug")
 		logger.Warn("warn")
 		logger.Error("error")
-
-		logger.JInfo("info")
-		logger.JDebug("debug")
-		logger.JWarn("warn")
-		logger.JError("error")
-
 		time.Sleep(200 * time.Millisecond)
+	}
+}
+
+func BenchmarkLog(b *testing.B) {
+	b.ResetTimer()
+	for i := 0; i < b.N; i++ {
+		logger.Info("info")
 	}
 }
