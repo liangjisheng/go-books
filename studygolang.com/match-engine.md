@@ -27,3 +27,9 @@
 
 [现货撮合交易和场外交易](https://github.com/SevenEX/bitrade-parent)
 [BTCETH钱包](https://github.com/SevenEX/wallet-rpc)
+
+## 自动化交易
+
+[huobiapi](https://github.com/huobiapi/Futures-Go-demo)
+[LiChenYang23](https://github.com/LiChenYang23/REST-API-demos)
+[onethefour](https://github.com/onethefour/REST-GO-demo)

@@ -26,6 +26,7 @@
 ## blockchain
 
 [blockchain](https://gitee.com/jonluo/projects)
+[fabric](http://mp.weixin.qq.com/mp/homepage?__biz=MzU5MjgwNDU0NQ==&hid=3&sn=03778d827c4f3ec2bee1bc5356833e14&scene=18#wechat_redirect)
 
 ## GO
 

@@ -1,5 +1,5 @@
 # studygolang.com articles
 
-[go-grpc](https://github.com/Bingjian-Zhu/go-grpc-example)
-[go-grpc](https://www.cnblogs.com/FireworksEasyCool/category/1693727.html)
+[load-balance](https://bingjian-zhu.github.io/archives/)
+[load-balance](https://github.com/Bingjian-Zhu/etcd-example)
 [go-web](https://xueyuanjun.com/books/go-web-programming)
