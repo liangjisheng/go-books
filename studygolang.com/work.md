@@ -2,12 +2,18 @@
 
 <https://studygolang.com/topics/1967>
 <https://studygolang.com/topics/10529>
+<https://gocn.vip/jobs>
+<https://learnku.com/go/c/jobs>
+杭州秘猿科技有限公司: <http://www.cryptape.com>
 贰幺零零
 布洛克城 科讯美 科兴 元征 专门研究DAPP
+灵动科技
 
 [ByteDance](https://github.com/wolverinn/Waking-Up)
 [ByteDance](https://studygolang.com/topics/11004)
 [tencent](https://studygolang.com/topics/10678#commentForm)
+[字节飞书](https://www.feishu.cn/hr/feishu_social_recruitment?token=MzsxNTkwMTUwNzkxNzAxOzY4Mjc3NDMyMDE0Mjg4OTkzNDI7)
+[ByteDance](https://job.bytedance.com/referral/pc/introduction?token=MzsxNTkxMDczMTEzNjMxOzY3MTExMDQ5OTg0MzgwNzc5NTU7MA)
 
 阿里社招，各种岗位，各个城市都可以内推。校招实习勿扰
 java，大数据等技术岗可以直接把简历发我邮箱，并且附上期望工作地
@@ -61,3 +67,20 @@ bestkidou@gmail.com
 [简历](https://mp.weixin.qq.com/s?__biz=MzI0MzIyMDM5Ng==&mid=2649826770&idx=1&sn=9bc326d8457cc33e3ddbe799f1391048&chksm=f175ef11c6026607a7f3b579e242758c04cb4c9e59e76da6d32c590dc2cfb24aa5790cf7ce19&mpshare=1&scene=1&srcid=&sharer_sharetime=1586867725719&sharer_shareid=a05c3fce97ade02888e2f7a13089e8d3&key=cdf90f9bd9e67c9bcaadb3f70ed957043ced7720f44c9bb9f0c7cc5238364c5a41ccafcb521a99e655cc87c0f2179e4b680d7d734f1a98cdd1d6135dfee2bb0d75772255e82cc857053d25df3be2bf53&ascene=1&uin=MjYyMTk4OTk4NA%3D%3D&devicetype=Windows+10&version=62080079&lang=zh_CN&exportkey=AQ5vUhv65f5Fik4e7jNdIOo%3D&pass_ticket=NJ8T%2FsBL6U2MskC8ZfV974hvbZxTwAHfKzviBWQocavpGnrQSbPtpve0KSe5uiQv)
 [简历](https://mp.weixin.qq.com/s?__biz=MzU3MTg3NDYwNg==&mid=2247484503&idx=1&sn=c7a006ddd9acb1cb104128c7d8601eab&chksm=fcd8c816cbaf4100d648d55111b3c360b14777a9e94c599ed6ad3e200045956df75db8e7164a&mpshare=1&scene=1&srcid=0415fXWjOsKvaFV6nq6uZs7Q&sharer_sharetime=1586919085672&sharer_shareid=be082b9b55860bca135c279cbeb97d77&key=92a58dc17248b4b84cf39fe7c968b93c2b8b33bf12995614c19c264da66bbc0df552ac21f92ff0bf7b98780050d74785e76284daeb95fff96e0a90be633e2897ffcfbaefdf243ca93cec95e55b4d8781&ascene=1&uin=MjYyMTk4OTk4NA%3D%3D&devicetype=Windows+10&version=62080079&lang=zh_CN&exportkey=AR9v5%2Ba0PduxBmGatS4fUjM%3D&pass_ticket=hRK18tJs7F7HalyYBbrP4Wr2mAmsSzMyvX%2FsyODQyqx0cOzBlIE7yu%2BjRPui1FaT)
 [选择公司](https://mp.weixin.qq.com/s?__biz=MzA3MzA5MTU4NA==&mid=2247484348&idx=1&sn=5c1b3fdcf86ade968621141df01976db&chksm=9f151cd3a86295c57739b40efe5192400e16da40635406c9d1ac4021c56b66fa923cfc91c2d7&mpshare=1&scene=1&srcid=&sharer_sharetime=1587388872400&sharer_shareid=0d8859a528b3df5d9c34675db058043a&key=cdf90f9bd9e67c9be3b2cba19022d8b97b05fd94c03b15db5bc4871a443f9aabde25777a7d638aaf13f6dea07172bcffa0cf3b71156961e74dcd6e1daf98425c1288142cd122c1aa17fbb4faa8f1dc7e&ascene=1&uin=MjYyMTk4OTk4NA%3D%3D&devicetype=Windows+10&version=62080079&lang=zh_CN&exportkey=Ab6%2B4QMsQpPIPv04grqm6K4%3D&pass_ticket=hRK18tJs7F7HalyYBbrP4Wr2mAmsSzMyvX%2FsyODQyqx0cOzBlIE7yu%2BjRPui1FaT)
+[go-cn](https://gocn.vip/jobs)
+
+石头内推群
+阿里 @群主
+Hulu @xw674818206
+头条 @ST0_0TZ
+Amazon @ocean_555
+大疆 @Dick_Wu
+陌陌 @Alice
+京东 @alice_scott
+快手 @honze001
+猿辅导 @decadezhou
+Shopee @Mi-stifler
+拼多多 @gamorwang
+滴滴 @lori1027
+
+[baidu](https://studygolang.com/topics/11659#reply1)

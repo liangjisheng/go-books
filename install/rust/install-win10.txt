@@ -1,0 +1,7 @@
+
+在 Windows 上, Rust 需要 Visual C++ 生成工具
+https://blog.csdn.net/jieyingxiao/article/details/99483079
+https://visualstudio.microsoft.com/zh-hans/downloads/
+
+下载 RUSTUP-INIT.EXE
+https://www.rust-lang.org/tools/install
