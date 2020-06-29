@@ -22,6 +22,8 @@
 - [design pattern](#design-pattern)
 - [web](#web)
 - [cloud](#cloud)
+- [blog](#blog)
+- [chat](#chat)
 
 ## blockchain
 
@@ -30,6 +32,7 @@
 
 ## GO
 
+[qcrao](https://github.com/qcrao/Go-Questions)
 [go-http](https://studygolang.com/articles/24738)
 [channel](https://studygolang.com/articles/25216#reply0)
 [channel](https://mp.weixin.qq.com/s/40uxAPdubIk0lU321LmfRg)
@@ -126,6 +129,7 @@
 
 [raft](http://thesecretlivesofdata.com/raft/)
 [raft](https://juejin.im/post/5eaf83a5f265da7bf16911e5)
+[raft](https://www.cnblogs.com/mindwind/p/5231986.html)
 
 ## linux
 
@@ -170,3 +174,12 @@
 ## cloud
 
 [k8s](https://mp.weixin.qq.com/s/VcEd6iwvw5g86paisKt52w)
+
+## blog
+
+[hexo](http://blog.haoji.me/build-blog-website-by-hexo-github.html)
+
+## chat
+
+[realtime-chat-go-react](https://github.com/watermelo/realtime-chat-go-react)
+[realtime-chat-go-react](https://studygolang.com/gctt/watermelo)

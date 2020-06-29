@@ -7,6 +7,9 @@ require (
 	github.com/antonfisher/nested-logrus-formatter v1.1.0
 	github.com/dynport/gossh v0.0.0-20170809141523-122e3ee2a6b0
 	github.com/garyburd/redigo v1.6.0 // indirect
+	github.com/go-sql-driver/mysql v1.5.0
+	github.com/gorilla/mux v1.7.4
+	github.com/joho/godotenv v1.3.0
 	github.com/labstack/echo v3.3.10+incompatible
 	github.com/labstack/gommon v0.3.0 // indirect
 	github.com/lestrrat-go/file-rotatelogs v2.3.0+incompatible

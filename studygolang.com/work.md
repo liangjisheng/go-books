@@ -4,10 +4,16 @@
 <https://studygolang.com/topics/10529>
 <https://gocn.vip/jobs>
 <https://learnku.com/go/c/jobs>
+<https://studygolang.com/topics/11721#reply0>
+<https://studygolang.com/articles/20938?fr=sidebar>
+<https://bibr.cn.com/>
 杭州秘猿科技有限公司: <http://www.cryptape.com>
 贰幺零零
 布洛克城 科讯美 科兴 元征 专门研究DAPP
 灵动科技
+
+字节内推 简历投邮箱: 陈-字节大数据
+chenyanbin.cyb@bytedance.com
 
 [ByteDance](https://github.com/wolverinn/Waking-Up)
 [ByteDance](https://studygolang.com/topics/11004)
