@@ -91,6 +91,7 @@
 [IO](https://www.jianshu.com/p/dfd940e7fca2)
 [IO](http://matt33.com/2017/08/06/unix-io/)
 [IO](http://matt33.com/2017/08/12/java-nio/)
+[epoll](https://segmentfault.com/a/1190000018517562)
 
 ## nginx
 

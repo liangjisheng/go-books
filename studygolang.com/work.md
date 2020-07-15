@@ -11,6 +11,22 @@
 贰幺零零
 布洛克城 科讯美 科兴 元征 专门研究DAPP
 灵动科技
+众安在线
+四方精创
+海联金汇
+趣链科技
+二三四五
+众享比特
+云象区块链
+金链盟
+中钞络谱
+
+3年以上后台开发即可，Base北京/深圳，有兴趣的可发简历邮件到 727120269@qq.com
+
+阿里云神龙计算平台热招职位，详细 JD 到官网搜索：
+<https://job.alibaba.com/zhaopin/positionList.htm>
+有感兴趣的同学，欢迎发简历到 tanglei.tanglei AT alibaba-inc.com ，
+或者加我 vx：tl3shi 详聊（备注内推）
 
 字节内推 简历投邮箱: 陈-字节大数据
 chenyanbin.cyb@bytedance.com
