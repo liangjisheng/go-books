@@ -23,6 +23,7 @@ require (
 	github.com/rogpeppe/go-internal v1.5.2
 	github.com/sirupsen/logrus v1.6.0
 	github.com/spf13/viper v1.7.0
+	github.com/tjfoc/gmsm v1.3.2 // indirect
 	go.uber.org/zap v1.10.0
 	golang.org/x/crypto v0.0.0-20200403201458-baeed622b8d8
 	golang.org/x/net v0.0.0-20190620200207-3b0461eec859
