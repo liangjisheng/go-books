@@ -49,8 +49,8 @@ func BubbleSort2(array []int) {
 		return
 	}
 
-	for i := n - 1; i > 0; i-- {
-		sortedIndex := 1
+	for i := n - 1; i > 0; {
+		sortedIndex := 0
 		for j := 1; j <= i; j++ {
 			if array[j-1] > array[j] {
 				array[j-1], array[j] = array[j], array[j-1]
@@ -58,5 +58,65 @@ func BubbleSort2(array []int) {
 			}
 		}
 		i = sortedIndex
+	}
+}
+
+// BubbleSort3 ...
+func BubbleSort3(array []int) {
+	n := len(array)
+	if n <= 1 {
+		return
+	}
+
+	for i := 0; i < n-1; i++ {
+		for j := 0; j < n-i-1; j++ {
+			if array[j] > array[j+1] {
+				array[j+1], array[j] = array[j], array[j+1]
+			}
+		}
+	}
+}
+
+// BubbleSort4 在某次遍历中如果没有数据交换, 说明整个数组已经有序
+func BubbleSort4(array []int) {
+	n := len(array)
+	if n <= 1 {
+		return
+	}
+
+	for i := 0; i < n-1; i++ {
+		sorted := true
+		for j := 0; j < n-i-1; j++ {
+			if array[j] > array[j+1] {
+				array[j+1], array[j] = array[j], array[j+1]
+				sorted = false
+			}
+		}
+
+		if sorted {
+			return
+		}
+	}
+}
+
+// BubbleSort5 记录某次遍历时最后发生数据交换的位置pos, 这个位置之后的数据显然已经有序了
+// 因此通过记录最后发生数据交换的位置就可以确定下次循环的范围了. 由于pos位置之后的记录均
+// 已交换到位, 故在进行下一趟排序时只要扫描到pos位置即可
+func BubbleSort5(array []int) {
+	n := len(array)
+	if n <= 1 {
+		return
+	}
+
+	for i := n; i > 0; {
+		pos := 0
+		for j := 1; j < i; j++ {
+			if array[j-1] > array[j] {
+				array[j-1], array[j] = array[j], array[j-1]
+				pos = j
+			}
+		}
+
+		i = pos
 	}
 }

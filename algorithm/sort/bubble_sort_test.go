@@ -22,3 +22,21 @@ func TestBubbleSort2(t *testing.T) {
 	BubbleSort2(array)
 	fmt.Println("array:", array)
 }
+
+func TestBubbleSort3(t *testing.T) {
+	fmt.Println("array:", array)
+	BubbleSort3(array)
+	fmt.Println("array:", array)
+}
+
+func TestBubbleSort4(t *testing.T) {
+	fmt.Println("array:", array)
+	BubbleSort4(array)
+	fmt.Println("array:", array)
+}
+
+func TestBubbleSort5(t *testing.T) {
+	fmt.Println("array:", array)
+	BubbleSort5(array)
+	fmt.Println("array:", array)
+}

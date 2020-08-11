@@ -1,3 +1,3 @@
 # README
 
-[sort](https://studygolang.com/articles/28143#reply0)
+[sort](https://www.zhihu.com/people/developer1024)
