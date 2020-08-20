@@ -1,6 +1,8 @@
-package main
+package stack
 
-func main() {
+import "testing"
+
+func TestStack(t *testing.T) {
 	s := NewStack(3)
 	s.push(1)
 	s.push(2)
