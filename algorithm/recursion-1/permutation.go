@@ -2,6 +2,10 @@ package recursion
 
 import "fmt"
 
+// 从n个不同元素中, 任取 m (m≤n,m与n均为自然数,下同)个不同的元素按照一定的顺序排成一列
+// 叫做从n个不同元素中取出m个元素的一个排列, 当 n = m 时, 我们称这样的排列为全排列
+// A(m, n) = n!/(n-m)!
+
 // 从n个元素中任意选3个, 求所有的排列
 func permutation(n int) {
 	if n < 3 {

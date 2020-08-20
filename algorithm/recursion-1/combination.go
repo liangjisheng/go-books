@@ -2,6 +2,10 @@ package recursion
 
 import "fmt"
 
+// 从 n 个不同元素中每次取出 m 个不同元素, 不管其顺序合成一组,
+// 称为从 n 个元素中不重复地选取 m 个元素的一个组合. 所有这样的组合的种数称为组合数
+// C(m, n) = n! / (m!(n-m)!)
+
 // COMBINATIONCNT 组合中需要被选中的个数
 var COMBINATIONCNT = 2
 
