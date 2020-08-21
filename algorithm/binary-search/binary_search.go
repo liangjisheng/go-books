@@ -22,8 +22,8 @@ func BinarySearch(array []int, target int) int {
 	return -1
 }
 
-// BinarySearch1 查找第一个不小于目标值的数, 目标数并不一定就出现在数组中
-func BinarySearch1(array []int, target int) int {
+// BinarySearchFirstLargeOrEqual 查找第一个不小于目标值的数, 目标数并不一定就出现在数组中
+func BinarySearchFirstLargeOrEqual(array []int, target int) int {
 	n := len(array)
 	if n <= 0 {
 		return -1
@@ -50,8 +50,8 @@ func BinarySearch1(array []int, target int) int {
 	return left
 }
 
-// BinarySearch2 查找最后一个不小于目标值的数, 目标数并不一定就出现在数组中
-func BinarySearch2(array []int, target int) int {
+// BinarySearchLastLargeOrEqual 查找最后一个不小于目标值的数, 目标数并不一定就出现在数组中
+func BinarySearchLastLargeOrEqual(array []int, target int) int {
 	n := len(array)
 	if n <= 0 {
 		return -1
@@ -76,8 +76,8 @@ func BinarySearch2(array []int, target int) int {
 	return max(left-1, 0)
 }
 
-// BinarySearch3 查找第一个大于目标值的数, 目标数并不一定就出现在数组中
-func BinarySearch3(array []int, target int) int {
+// BinarySearchFirstLarge 查找第一个大于目标值的数, 目标数并不一定就出现在数组中
+func BinarySearchFirstLarge(array []int, target int) int {
 	n := len(array)
 	if n <= 0 {
 		return -1

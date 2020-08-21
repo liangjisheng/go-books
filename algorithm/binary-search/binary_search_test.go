@@ -18,7 +18,7 @@ func TestBinarySearch1(t *testing.T) {
 	// arr := []int{0, 1, 2, 2, 2, 3}
 	// arr := []int{2}
 	fmt.Println("array:", arr)
-	fmt.Println(BinarySearch1(arr, 8))
+	fmt.Println(BinarySearchFirstLargeOrEqual(arr, 8))
 }
 
 func TestBinarySearch2(t *testing.T) {
@@ -26,7 +26,7 @@ func TestBinarySearch2(t *testing.T) {
 	// arr := []int{0, 1, 1, 2, 2, 3}
 	// arr := []int{2}
 	fmt.Println("array:", arr)
-	fmt.Println(BinarySearch2(arr, 1))
+	fmt.Println(BinarySearchLastLargeOrEqual(arr, 1))
 }
 
 func TestBinarySearch3(t *testing.T) {
@@ -34,7 +34,7 @@ func TestBinarySearch3(t *testing.T) {
 	// arr := []int{0, 1, 1, 2, 2, 3}
 	// arr := []int{2}
 	fmt.Println("array:", arr)
-	fmt.Println(BinarySearch3(arr, 5))
+	fmt.Println(BinarySearchFirstLarge(arr, 5))
 }
 
 func TestPow(t *testing.T) {
@@ -47,4 +47,39 @@ func TestRotatedBinarySearch(t *testing.T) {
 	arr := []int{4, 5, 6, 7, 0, 1, 2}
 	fmt.Println("array:", arr)
 	fmt.Println(RotatedBinarySearch(arr, 3))
+}
+
+func TestLeftBound(t *testing.T) {
+	arr := []int{1, 2, 4, 5, 6, 9}
+	// arr := []int{0, 1, 1, 2, 2, 3}
+	// arr := []int{2}
+	fmt.Println("array:", arr)
+	fmt.Println(leftBound(arr, 5))
+}
+
+func TestRightBound(t *testing.T) {
+	arr := []int{1, 2, 5, 5, 6, 9}
+	// arr := []int{0, 1, 1, 2, 2, 3}
+	// arr := []int{2}
+	fmt.Println("array:", arr)
+	fmt.Println(rightBound(arr, 10))
+}
+
+func TestMinArray(t *testing.T) {
+	arr := []int{1, 2, 5, 5, 6, 9}
+	fmt.Println("array:", arr)
+	fmt.Println(minArray(arr))
+}
+
+func TestMaxArray(t *testing.T) {
+	arr := []int{1, 2, 5, 5, 6, 9}
+	fmt.Println("array:", arr)
+	fmt.Println(maxArray(arr))
+}
+
+func TestMinEatSpeed(t *testing.T) {
+	piles := []int{3, 6, 7, 11}
+	H := 8
+	fmt.Println(minEatSpeed(piles, H))
+	fmt.Println(minEatSpeedOptimize(piles, H))
 }
