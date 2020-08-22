@@ -83,3 +83,10 @@ func TestMinEatSpeed(t *testing.T) {
 	fmt.Println(minEatSpeed(piles, H))
 	fmt.Println(minEatSpeedOptimize(piles, H))
 }
+
+func TestMinLoadSpeed(t *testing.T) {
+	weights := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+	D := 4
+	fmt.Println(minLoadCap(weights, D))
+	fmt.Println(minLoadCapOptisize(weights, D))
+}
