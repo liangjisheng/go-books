@@ -21,6 +21,7 @@ require (
 	github.com/rakyll/statik v0.1.7
 	github.com/rogierlommers/logrus-redis-hook v0.0.0-20200302072909-4231d5052bd1
 	github.com/rogpeppe/go-internal v1.5.2
+	github.com/shopspring/decimal v1.2.0
 	github.com/sirupsen/logrus v1.6.0
 	github.com/spf13/viper v1.7.0
 	github.com/tjfoc/gmsm v1.3.2 // indirect

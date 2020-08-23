@@ -3,6 +3,7 @@
 ## 目录
 
 - [blockchain](#blockchain)
+- [algorithm](#algorithm)
 - [GO](#GO)
 - [GIN](#gin)
 - [schedule](#schedule)
@@ -39,6 +40,7 @@
 [channel](https://mp.weixin.qq.com/s/40uxAPdubIk0lU321LmfRg)
 [go-mod-error](https://learnku.com/articles/43758)
 [go-micro](https://segmentfault.com/blog/wulin_140743)
+[GinSkeleton](https://gitee.com/daitougege/GinSkeleton)
 
 ## gin
 

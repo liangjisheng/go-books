@@ -18,6 +18,8 @@
 [match](https://github.com/ezpod/crypto-exchange-engine)
 [match](https://github.com/fmstephe/matching_engine)
 
+[rust](https://github.com/dgtony/orderbook-rs)
+
 [分布式撮合](http://xiaorui.cc/archives/6429)
 
 知名交易所 API
