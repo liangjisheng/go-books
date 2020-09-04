@@ -9,5 +9,9 @@ func main() {
 	// fmt.Println("min res:", res)
 
 	// method1()
-	diff1()
+	// diff1()
+
+	// array := []int{1, 2, 3, 4, 5}
+	// res := multiply(array)
+	// fmt.Println(res)
 }
