@@ -13,16 +13,18 @@ func main() {
 	fmt.Println("len:", list.length)
 	list.Print()
 
-	// list.InvertList()
+	// list.head.next = list.Invert(list.head.next)
 	// list.Print()
 
-	// list.IterationInvert()
+	// list.head.next = list.IterationInvert(list.head.next)
 	// list.Print()
 
 	// list.IterationInvertPartList(2, 4)
 	// list.Print()
 
-	// list.IterationInvertLinkedListEveryK(2)
+	// list.head = list.IterationInvertLinkedListEveryK(list.head, 2)
+	// list.Print()
+	// list.head.next = list.InvertLinkedListEveryK(list.head.next, 2)
 	// list.Print()
 
 	// list.ReverseIterationInvertLinkedListEveryK(2)
@@ -37,6 +39,20 @@ func main() {
 	// list.reversedKthToTail(2)
 	// list.Print()
 
-	list.deleteKthToTail(1)
-	list.Print()
+	// list.deleteKthToTail(1)
+	// list.Print()
+
+	// 构建环: 找到尾节点, 并将尾节点的 next 指向链表的第二个节点
+	// tmp := list.head
+	// for tmp.next != nil {
+	// 	tmp = tmp.next
+	// }
+	// tmp.next = list.head.next.next
+
+	// fmt.Printf("cross node: %d\n", list.detectCrossNode().data)
+	// fmt.Printf("entry node: %d\n", list.getRingEntryNode().data)
+
+	// fmt.Printf("palindromic: %v\n", list.isPalindromicList())
+	// fmt.Printf("palindromic: %v\n", list.isPalindromicList2())
+	// fmt.Printf("palindromic: %v\n", list.isPalindromicList3())
 }

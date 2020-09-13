@@ -16,6 +16,7 @@ type Node struct {
 // BinarySearchTree ...
 type BinarySearchTree struct {
 	root *Node
+	len  int
 }
 
 // NewNode ...
@@ -49,6 +50,7 @@ func _search(node *Node, key int) bool {
 
 func (bst *BinarySearchTree) insert(key int) *BinarySearchTree {
 	bst.root = _insert(bst.root, key)
+	bst.len++
 	return bst
 }
 

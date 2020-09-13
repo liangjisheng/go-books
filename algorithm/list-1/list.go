@@ -90,14 +90,17 @@ func (list *List) removeSelectedNode(deleteNode *Node) {
 	}
 }
 
-func (list *List) invert(node *Node) *Node {
+// Invert 时间/空间复杂度 由于递归调用了 n 次 Invert 函数
+// 所以时间复杂度显然是 O(n), 空间复杂度呢, 没有用到额外的空间, 但是由于递归调用了
+// n 次 Invert 函数, 压了 n 次栈, 所以空间复杂度也是 O(n)
+func (list *List) Invert(node *Node) *Node {
 	// 递归结束条件,只有一个节点结束递归
 	if node.next == nil {
 		return node
 	}
 
 	// 步骤 1: 先翻转 node 之后的链表
-	newHead := list.invert(node.next)
+	newHead := list.Invert(node.next)
 
 	// 步骤 2: 再把原 node 节点后继结点的后继结点指向 node, node 的后继节点设置为空(防止形成环)
 	node.next.next = node
@@ -107,21 +110,12 @@ func (list *List) invert(node *Node) *Node {
 	return newHead
 }
 
-// InvertList 计算时间/空间复杂度 由于递归调用了 n 次 InvertList 函数
-// 所以时间复杂度显然是 O(n), 空间复杂度呢, 没有用到额外的空间, 但是由于递归调用了
-// n 次 InvertList 函数, 压了 n 次栈, 所以空间复杂度也是 O(n)
-func (list *List) InvertList() {
-	newHead := list.invert(list.head.next)
-	// 翻转后别忘了设置头结点的后继结点
-	list.head.next = newHead
-}
-
 // IterationInvert 用迭代的思路来做由于循环了 n 次, 显然时间复杂度为 O(n),
 // 另外由于没有额外的空间使用, 也未像递归那样调用递归函数不断压栈
 // 所以空间复杂度是 O(1),对比递归, 显然应该使用迭代的方式来处理
-func (list *List) IterationInvert() {
-	pre := list.head.next
-	cur := list.head.next.next
+func (list *List) IterationInvert(node *Node) *Node {
+	pre := node
+	cur := node.next
 	// pre 是第一个结点, 避免翻转链表后形成环
 	pre.next = nil
 
@@ -135,7 +129,7 @@ func (list *List) IterationInvert() {
 	}
 
 	// 此时 pre 指向的是原链表的尾结点, 翻转后即为链表 head 的后继结点
-	list.head.next = pre
+	return pre
 }
 
 // IterationInvertPartList 变形题 1: 给定一个链表的头结点 head,以及两个整数 from 和 to, 在链表上把
@@ -197,12 +191,12 @@ func (list *List) IterationInvertPartList(fromIdx, toIdx int) {
 // 当 k = 3 时, 应当返回: head-->3->2->1->4->5 说明:
 // 你的算法只能使用常数的额外空间
 // 你不能只是单纯的改变节点内部的值, 而是需要实际的进行节点交换
-func (list *List) IterationInvertLinkedListEveryK(k int) {
-	tmp := list.head.next
+func (list *List) IterationInvertLinkedListEveryK(node *Node, k int) *Node {
+	tmp := node.next
 	step := 0 // 计数用来找出首节点和尾节点
 
 	var startK, endK *Node // k 个一组链表中的头节点和尾节点
-	startKPre := list.head // k 个一组链表中的头节点的前置节点
+	startKPre := node      // k 个一组链表中的头节点的前置节点
 
 	for tmp != nil {
 		// tmp 的下一个节点, 因为由于翻转, tmp 的后继结点会变,要提前保存
@@ -241,6 +235,41 @@ func (list *List) IterationInvertLinkedListEveryK(k int) {
 		}
 		tmp = tmpNext
 	}
+
+	return node
+}
+
+// InvertLinkedListEveryK ...
+func (list *List) InvertLinkedListEveryK(node *Node, k int) *Node {
+	// 结束条件
+	if node == nil || node.next == nil {
+		return node
+	}
+
+	// 前进 k-1 步
+	cur := node
+	for i := 1; i < k && cur != nil; i++ {
+		cur = cur.next
+	}
+	// 判断是否能组成一组, 不能的话就结束
+	if cur == nil {
+		return node
+	}
+
+	// tmp 指向剩余的链表
+	tmp := cur.next
+	cur.next = nil
+
+	// 把 k 个节点进行反转
+	newHead := list.Invert(node)
+
+	// 把之后的部分链表进行每K个节点逆转
+	newTmpHead := list.InvertLinkedListEveryK(tmp, k)
+
+	// 把两部分节点连接起来
+	node.next = newTmpHead
+
+	return newHead
 }
 
 // ReverseIterationInvertLinkedListEveryK 变形题 3: 变形 2 针对的是顺序的 k 个一组翻转
@@ -249,9 +278,9 @@ func (list *List) IterationInvertLinkedListEveryK(k int) {
 // head-->1--->3-->2-->5-->4 (k = 2 时)
 func (list *List) ReverseIterationInvertLinkedListEveryK(k int) {
 	// 先翻转链表
-	list.IterationInvert()
+	list.head.next = list.IterationInvert(list.head.next)
 	// k 个一组翻转链表
-	list.IterationInvertLinkedListEveryK(k)
+	list.head = list.IterationInvertLinkedListEveryK(list.head, k)
 	// 再次翻转链表
-	list.IterationInvert()
+	list.head.next = list.IterationInvert(list.head.next)
 }

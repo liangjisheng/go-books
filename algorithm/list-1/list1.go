@@ -122,5 +122,8 @@ func (list *List) reversedKthToTail(k int) {
 func (list *List) deleteKthToTail(k int) {
 	// 倒数第 k+1 个节点
 	kPreNode := list.findKthToTailMethod2(k + 1)
+	if kPreNode == nil || kPreNode.next == nil {
+		return
+	}
 	kPreNode.next = kPreNode.next.next
 }
