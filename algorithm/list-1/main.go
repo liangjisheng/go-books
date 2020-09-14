@@ -55,4 +55,10 @@ func main() {
 	// fmt.Printf("palindromic: %v\n", list.isPalindromicList())
 	// fmt.Printf("palindromic: %v\n", list.isPalindromicList2())
 	// fmt.Printf("palindromic: %v\n", list.isPalindromicList3())
+
+	// list1 := list.split1(3)
+	// list1.Print()
+
+	// list2 := list.split2(10)
+	// list2.Print()
 }
