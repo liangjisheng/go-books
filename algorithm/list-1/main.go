@@ -61,4 +61,10 @@ func main() {
 
 	// list2 := list.split2(10)
 	// list2.Print()
+
+	// cycleList(list)
+	// live := josephus1(list, 4)
+	// fmt.Printf("%d live", live.data)
+	// live := josephus2(list, 4)
+	// fmt.Printf("%d live", live.data)
 }
