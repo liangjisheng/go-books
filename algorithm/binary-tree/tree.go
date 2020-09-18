@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // 前序遍历: 根左右
 // 中序遍历: 左根右
@@ -22,57 +24,57 @@ func NewTreeNode(data int) *TreeNode {
 	}
 }
 
-// Tree ...
-type Tree struct {
-	root          *TreeNode
-	preOrderData  []int
-	inOrderData   []int
-	postOrderData []int
-	length        int
-}
-
-// NewTree ...
-func NewTree(root *TreeNode) *Tree {
-	return &Tree{
-		root:          root,
-		preOrderData:  make([]int, 0),
-		inOrderData:   make([]int, 0),
-		postOrderData: make([]int, 0),
-		length:        0,
-	}
-}
-
 // 前序遍历: 根左右
-func (tree *Tree) preOrder(root *TreeNode) {
+func preOrderRecursion(root *TreeNode) []int {
 	if root == nil {
-		return
+		return nil
 	}
+	result := make([]int, 0)
+	result = append(result, root.data)
 
-	tree.preOrderData = append(tree.preOrderData, root.data)
-	tree.preOrder(root.left)
-	tree.preOrder(root.right)
+	leftRes := preOrderRecursion(root.left)
+	result = append(result, leftRes...)
+
+	rightRes := preOrderRecursion(root.right)
+	result = append(result, rightRes...)
+
+	return result
 }
 
 // 中序遍历: 左根右
-func (tree *Tree) inOrder(root *TreeNode) {
+func inOrderRecursion(root *TreeNode) []int {
 	if root == nil {
-		return
+		return nil
 	}
+	result := make([]int, 0)
 
-	tree.inOrder(root.left)
-	tree.inOrderData = append(tree.inOrderData, root.data)
-	tree.inOrder(root.right)
+	leftRes := inOrderRecursion(root.left)
+	result = append(result, leftRes...)
+
+	result = append(result, root.data)
+
+	rightRes := inOrderRecursion(root.right)
+	result = append(result, rightRes...)
+
+	return result
 }
 
 // 后序遍历: 左右根
-func (tree *Tree) postOrder(root *TreeNode) {
+func postOrderRecursion(root *TreeNode) []int {
 	if root == nil {
-		return
+		return nil
 	}
 
-	tree.postOrder(root.left)
-	tree.postOrder(root.right)
-	tree.postOrderData = append(tree.postOrderData, root.data)
+	result := make([]int, 0)
+
+	leftRes := postOrderRecursion(root.left)
+	result = append(result, leftRes...)
+
+	rightRes := postOrderRecursion(root.right)
+	result = append(result, rightRes...)
+
+	result = append(result, root.data)
+	return result
 }
 
 // 题意: 给你一个前序遍历和中序遍历, 你要构造出一个二叉树
@@ -150,43 +152,41 @@ func buildByInAndPost(postOrder []int, inOrderMap map[int]int,
 }
 
 func buildTreeDemoByPreAndIn() {
-	preOrderData := []int{3, 9, 20, 15, 7}
-	inOrderData := []int{9, 3, 15, 20, 7}
-	// postOrderData := []int{9, 15, 7, 20, 3}
+	preOrder := []int{3, 9, 20, 15, 7}
+	inOrder := []int{9, 3, 15, 20, 7}
+	// postOrder := []int{9, 15, 7, 20, 3}
 
-	root := buildTreeByPreAndIn(preOrderData, inOrderData)
-	tree := NewTree(root)
+	root := buildTreeByPreAndIn(preOrder, inOrder)
 
-	tree.preOrder(tree.root)
+	preOrderData := preOrderRecursion(root)
 	fmt.Print("pre order: ")
-	fmt.Println(tree.preOrderData)
+	fmt.Println(preOrderData)
 
-	tree.inOrder(tree.root)
-	fmt.Print("in order: ")
-	fmt.Println(tree.inOrderData)
+	inOrderData := inOrderRecursion(root)
+	fmt.Print(" in order: ")
+	fmt.Println(inOrderData)
 
-	tree.postOrder(tree.root)
+	postOrderData := postOrderRecursion(root)
 	fmt.Print("post order: ")
-	fmt.Println(tree.postOrderData)
+	fmt.Println(postOrderData)
 }
 
 func buildTreeDemoByInAndPost() {
-	// preOrderData := []int{3, 9, 20, 15, 7}
-	inOrderData := []int{9, 3, 15, 20, 7}
-	postOrderData := []int{9, 15, 7, 20, 3}
+	// preOrder := []int{3, 9, 20, 15, 7}
+	inOrder := []int{9, 3, 15, 20, 7}
+	postOrder := []int{9, 15, 7, 20, 3}
 
-	root := buildTreeByInAndPost(inOrderData, postOrderData)
-	tree := NewTree(root)
+	root := buildTreeByInAndPost(inOrder, postOrder)
 
-	tree.preOrder(tree.root)
+	preOrderData := preOrderRecursion(root)
 	fmt.Print("pre order: ")
-	fmt.Println(tree.preOrderData)
+	fmt.Println(preOrderData)
 
-	tree.inOrder(tree.root)
-	fmt.Print("in order: ")
-	fmt.Println(tree.inOrderData)
+	inOrderData := inOrderRecursion(root)
+	fmt.Print(" in order: ")
+	fmt.Println(inOrderData)
 
-	tree.postOrder(tree.root)
+	postOrderData := postOrderRecursion(root)
 	fmt.Print("post order: ")
-	fmt.Println(tree.postOrderData)
+	fmt.Println(postOrderData)
 }
