@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// array := []int{2, 3, 1, 0, 2, 5, 3}
 	// res := duplicate(array)
@@ -10,5 +12,9 @@ func main() {
 	// fmt.Println(res)
 
 	// alternatePrint()
-	alternatePrint1()
+	// alternatePrint1()
+
+	// fmt.Println(lengthOfLongestSubstring1("pwwkew"))
+	// fmt.Println(lengthOfLongestSubstring2("pwwkew"))
+	fmt.Println(lengthOfLongestSubstring3("pwwkew"))
 }
