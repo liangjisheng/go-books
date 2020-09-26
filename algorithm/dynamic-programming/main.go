@@ -43,6 +43,21 @@ func main() {
 	// fmt.Println("isMatch4:", isMatch4(text, pattern))
 	// fmt.Println("isMatch5:", isMatch5(text, pattern))
 
-	nums := []int{10, 9, 2, 5, 3, 7, 101, 18}
-	fmt.Println(lengthOfLIS(nums))
+	// nums := []int{10, 9, 2, 5, 3, 7, 101, 18}
+	// fmt.Println(lengthOfLIS(nums))
+
+	// piles := []int{3, 9, 1, 2}
+	// fmt.Println(stoneGame(piles))
+
+	// fmt.Println("maxA1:", maxA1(3))
+	// fmt.Println("maxA1:", maxA1(7))
+	// fmt.Println("maxA1:", maxA1(30))
+
+	// fmt.Println("maxA1Memo:", maxA1Memo(3))
+	// fmt.Println("maxA1Memo:", maxA1Memo(7))
+	// fmt.Println("maxA1Memo:", maxA1Memo(20))
+
+	fmt.Println("maxA2:", maxA2(3))
+	fmt.Println("maxA2:", maxA2(7))
+	fmt.Println("maxA2:", maxA2(30))
 }
