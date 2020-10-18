@@ -2,12 +2,13 @@
 
 # https://gocode.cc/project/20/article/147
 # https://learnku.com/rust/wikis/29017
+# https://www.ixiqin.com/2019/02/macos-installation-rust-development-environment/
 
 # 如果可以翻墙的话
 curl https://sh.rustup.rs -sSf | sh
-echo 'export PATH=$HOME/.cargo/bin:$PATH' >> ~/.bashrc
-# source $HOME/.cargo/env
-source ~/.bashrc
+source $HOME/.cargo/env
+# echo 'export PATH=$HOME/.cargo/bin:$PATH' >> ~/.bashrc
+# source ~/.bashrc
 # 验证
 rustc --version
 
@@ -25,15 +26,16 @@ source ~/.bashrc
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 # 安装完毕后刷新环境变量
-echo 'export PATH=$HOME/.cargo/bin:$PATH' >> ~/.bashrc
-# source $HOME/.cargo/env
-source ~/.bashrc
+# echo 'export PATH=$HOME/.cargo/bin:$PATH' >> ~/.bashrc
+# source ~/.bashrc
+source $HOME/.cargo/env
 
 # 安装rust后, 可以执行 rustc -V  和 cargo -V 看看是否正常输出版本
 
 # 修改Rust Crates 源
 cat >~/.cargo/config <<EOF
 [source.crates-io]
+registry = "https://github.com/rust-lang/crates.io-index"
 replace-with = 'ustc'
 
 [source.ustc]
