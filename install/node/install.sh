@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# node 官网
+# https://nodejs.org/zh-cn/
+
 cd /usr/local
 wget https://nodejs.org/dist/v12.16.0/node-v12.16.0-linux-x64.tar.xz
 xz -d node-v12.16.0-linux-x64.tar.xz
