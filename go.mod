@@ -19,6 +19,7 @@ require (
 	github.com/liyue201/gostl v0.0.0-20200408084203-a8e548bf336f
 	github.com/natefinch/lumberjack v2.0.0+incompatible
 	github.com/rakyll/statik v0.1.7
+	github.com/robfig/cron v1.2.0
 	github.com/rogierlommers/logrus-redis-hook v0.0.0-20200302072909-4231d5052bd1
 	github.com/rogpeppe/go-internal v1.5.2
 	github.com/shopspring/decimal v1.2.0
