@@ -21,6 +21,8 @@ require (
 	github.com/lestrrat-go/strftime v1.0.1 // indirect
 	github.com/liyue201/gostl v0.0.0-20200408084203-a8e548bf336f
 	github.com/natefinch/lumberjack v2.0.0+incompatible
+	github.com/oschwald/geoip2-golang v1.4.0
+	github.com/oschwald/maxminddb-golang v1.7.0 // indirect
 	github.com/rakyll/statik v0.1.7
 	github.com/robfig/cron v1.2.0
 	github.com/rogierlommers/logrus-redis-hook v0.0.0-20200302072909-4231d5052bd1
@@ -32,5 +34,6 @@ require (
 	go.uber.org/zap v1.10.0
 	golang.org/x/crypto v0.0.0-20200403201458-baeed622b8d8
 	golang.org/x/net v0.0.0-20200202094626-16171245cfb2
+	golang.org/x/sys v0.0.0-20201116194326-cc9327a14d48 // indirect
 	golang.org/x/time v0.0.0-20191024005414-555d28b269f0
 )
