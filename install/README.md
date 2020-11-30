@@ -1,1 +1,7 @@
 # install script
+
+```sh
+brew install cask v2rayu
+```
+
+vmess://eyJwb3J0IjoiMTcyOTMiLCJwcyI6InhsdC5xdHVtLnNpdGUiLCJ0bHMiOiJ0bHMiLCJpZCI6IjhlNDNmMjFjLTg1NTEtNGI2Ni05MjNhLTE0NGU2ODc5ZmVmMCIsImFpZCI6IjY0IiwidiI6IjIiLCJob3N0IjoiIiwidHlwZSI6Im5vbmUiLCJwYXRoIjoiXC8iLCJuZXQiOiJ3cyIsImFkZCI6InhsdC5xdHVtLnNpdGUifQ==
