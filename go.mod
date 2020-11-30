@@ -11,6 +11,7 @@ require (
 	github.com/dynport/gossh v0.0.0-20170809141523-122e3ee2a6b0
 	github.com/forgoer/openssl v0.0.0-20200331032942-ad9f8d57d8b1
 	github.com/garyburd/redigo v1.6.0 // indirect
+	github.com/gin-gonic/gin v1.6.3
 	github.com/go-redis/redis v6.15.9+incompatible
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/gorilla/mux v1.7.4
