@@ -13,3 +13,9 @@ export GOBIN=$GOPATH/bin
 export PATH=$GOROOT/bin:$GOBIN:$PATH
 
 source ~/.bashrc
+
+
+# 通过命令行直接安装
+sudo add-apt-repository ppa:longsleep/golang-backports
+sudo apt update
+sudo apt-get install golang-go
