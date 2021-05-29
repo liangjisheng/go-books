@@ -3,6 +3,7 @@ package main
 import (
 	"bytes"
 	"fmt"
+	"github.com/mattn/go-colorable"
 	"io"
 	"log"
 	"os"
@@ -13,8 +14,8 @@ import (
 )
 
 func main() {
-	// demo1()
-	demo2()
+	demo1()
+	//demo2()
 	// jsonOutput()
 	// thirdFormat()
 	// hook()
@@ -25,6 +26,8 @@ func demo1() {
 	// 默认的级别为InfoLevel 所以为了能看到Trace和Debug日志
 	// 我们在main函数第一行设置日志级别为TraceLevel
 	logrus.SetLevel(logrus.TraceLevel)
+	logrus.SetFormatter(&logrus.TextFormatter{ForceColors: true})
+	logrus.SetOutput(colorable.NewColorableStdout())
 
 	logrus.Trace("trade msg")
 	logrus.Debug("debug msg")

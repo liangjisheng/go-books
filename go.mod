@@ -6,7 +6,7 @@ require (
 	github.com/InWeCrypto/sha3 v0.0.0-20171123094127-d0fd118c5827
 	github.com/PuerkitoBio/goquery v1.6.0
 	github.com/UncleBig/goCache v0.0.0-20161110020818-f1cc4a855d82
-	github.com/antonfisher/nested-logrus-formatter v1.1.0
+	github.com/antonfisher/nested-logrus-formatter v1.3.1
 	github.com/astaxie/beego v1.12.3
 	github.com/dynport/gossh v0.0.0-20170809141523-122e3ee2a6b0
 	github.com/forgoer/openssl v0.0.0-20200331032942-ad9f8d57d8b1
@@ -23,6 +23,7 @@ require (
 	github.com/lestrrat-go/strftime v1.0.1 // indirect
 	github.com/liyue201/gostl v0.0.0-20200408084203-a8e548bf336f
 	github.com/magiconair/properties v1.8.4 // indirect
+	github.com/mattn/go-colorable v0.1.2 // indirect
 	github.com/mitchellh/mapstructure v1.4.0 // indirect
 	github.com/natefinch/lumberjack v2.0.0+incompatible
 	github.com/oschwald/geoip2-golang v1.4.0
@@ -32,6 +33,7 @@ require (
 	github.com/robfig/cron v1.2.0
 	github.com/rogierlommers/logrus-redis-hook v0.0.0-20200302072909-4231d5052bd1
 	github.com/rogpeppe/go-internal v1.5.2
+	github.com/schollz/logger v1.2.0 // indirect
 	github.com/shopspring/decimal v1.2.0
 	github.com/sirupsen/logrus v1.6.0
 	github.com/spf13/afero v1.5.1 // indirect
