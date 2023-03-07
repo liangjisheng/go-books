@@ -3,7 +3,6 @@ module go-books
 go 1.17
 
 require (
-	github.com/deckarep/golang-set/v2 v2.1.0
 	github.com/gin-gonic/gin v1.6.3
 	github.com/gohouse/gorose v1.0.5
 	github.com/liyue201/gostl v0.0.0-20200408084203-a8e548bf336f
@@ -14,7 +13,7 @@ require (
 	github.com/oschwald/geoip2-golang v1.4.0
 	github.com/shopspring/decimal v1.2.0
 	github.com/stretchr/testify v1.6.1
-	golang.org/x/net v0.0.0-20210929193557-e81a3d93ecf6
+	golang.org/x/net v0.7.0
 	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e
 	gopl.io v0.0.0-20211004154805-1ae3ec64947b
 )
@@ -45,8 +44,8 @@ require (
 	github.com/samuel/go-zookeeper v0.0.0-20201211165307-7117e9ea2414 // indirect
 	github.com/smartystreets/goconvey v1.6.4 // indirect
 	github.com/ugorji/go/codec v1.1.7 // indirect
-	golang.org/x/sys v0.0.0-20210423082822-04245dca01da // indirect
-	golang.org/x/text v0.3.6 // indirect
+	golang.org/x/sys v0.5.0 // indirect
+	golang.org/x/text v0.7.0 // indirect
 	google.golang.org/protobuf v1.23.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
