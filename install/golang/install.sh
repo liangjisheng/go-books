@@ -1,7 +1,8 @@
 #!/bin/bash
 
-wget https://studygolang.com/dl/golang/go1.14.2.linux-amd64.tar.gz
-tar zxf go1.14.2.linux-amd64.tar.gz
+wget https://studygolang.com/dl/golang/gogo1.20.3.linux-amd64.tar.gz
+wget https://golang.google.cn/dl/go1.20.3.linux-amd64.tar.gz
+tar zxf go1.20.3.linux-amd64.tar.gz
 
 vim ~/.bashrc
 
