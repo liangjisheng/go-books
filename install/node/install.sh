@@ -15,3 +15,7 @@ ln -s /usr/local/node-v12.16.0-linux-x64/bin/npx /usr/local/bin/
 # 查看是否安装成功
 node -v
 npm -v
+
+# install linux
+wget https://nodejs.org/dist/v18.16.0/node-v18.16.0-linux-x64.tar.xz
+tar xvJf node-v18.16.0-linux-x64.tar.xz
